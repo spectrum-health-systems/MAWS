@@ -14,7 +14,6 @@
   <br>
   A custom web service for Netsmart's myAvatar™ EHR
   <br>
-  <br>
 
 </h2>
 
@@ -48,8 +47,7 @@
   [About](#about)<br>
   [Features](#features)<br>
   [Requirements](#requirements)<br>
-  [Gettings started](#getting-started)<br>
-  [Updating](#updating)<br>
+  [Getting started](#getting-started)<br>
   [Development](#development)<br>
   [Additional information](#additional-information)<br>
 
@@ -64,7 +62,7 @@ While myAvatar™ is a robust platform, like most things in life (except [Heroes
 
 The good news is that myAvatar™ functionality can be extended via Netsmart's myAvatar™ Web Services, and/or custom web services that are written by myAvatar™ users.
 
-The **m**y**A**vatool **W**eb **S**ervice (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
+The **M**y**A**vatool **W**eb **S**ervice (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
 
 # Features
 * Several built-in tools and utilities for use with myAvatar™
