@@ -26,7 +26,7 @@
 
 <h3 align="center">
 
-  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](doc/known-issues.md)
+  Home&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink events](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
 
 </h3>
 
