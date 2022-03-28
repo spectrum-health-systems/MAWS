@@ -14,7 +14,6 @@
   <br>
   Manual
   <br>
-  <br>
 
 </h1>
 
