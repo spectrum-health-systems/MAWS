@@ -7,9 +7,7 @@
 </h6>
 
 ***
-
 <br>
-
 <h2 align="center">
 
   <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
@@ -65,7 +63,7 @@ While myAvatar™ is a robust platform, like most things in life (except [Heroes
 
 The good news is that myAvatar™ functionality can be extended via Netsmart's myAvatar™ Web Services, and/or custom web services that are written by myAvatar™ users.
 
-The MyAvatool Web Service (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
+The myAvatool Web Service (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
 
 ## Features
 * Several built-in tools and utilities for use with myAvatar™
