@@ -39,13 +39,13 @@
 
 ***
 
-  ### CONTENTS
-  [About](#about)<br>
-  [Features](#features)<br>
-  [Requirements](#requirements)<br>
-  [Getting started](#getting-started)<br>
-  [Development](#development)<br>
-  [Additional information](#additional-information)<br>
+# CONTENTS
+[About](#about)<br>
+[Features](#features)<br>
+[Requirements](#requirements)<br>
+[Getting started](#getting-started)<br>
+[Development](#development)<br>
+[Additional information](#additional-information)<br>
 
 # About
 [Netsmart's myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
