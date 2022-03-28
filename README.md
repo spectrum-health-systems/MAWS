@@ -39,7 +39,7 @@
 
 ***
 
-# CONTENTS
+#### CONTENTS
 [About](#about)<br>
 [Features](#features)<br>
 [Requirements](#requirements)<br>
