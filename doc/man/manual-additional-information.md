@@ -1,25 +1,14 @@
-﻿<!--
-  Software manual template (b210104)
-  https://github.com/APrettyCoolProgram/my-development-environment/tree/master/templates/documentation
--->
-<h6 align="center">
+﻿<!-- 220328.094653 -->
 
-  MAWS v0.8.x&nbsp;&bull;&nbsp;Last updated: April 21st, 2021
+<h4 align="center">
 
-</h6>
+  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
 
-***
+</h4>
 
-<h5 align="center">
+# Additional information
 
-  [HOME](manual.md)&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;[HOSTING MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[IMPORTING MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;ADDITIONAL INFORMATION
-
-</h5>
-
-***
-
-# ADDITIONAL MAWS INFORMATION
-## MAWS DEVELOPMENT
+## Development
 * [Sourcecode information](../../src/Resources/Dev/sourcecode-information.md)
 * [Development information](../../src/Resources/Dev/development-information.md)
 * Previous development versions can be found [here](../../dev/).
