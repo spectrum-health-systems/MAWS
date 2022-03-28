@@ -30,6 +30,7 @@
 </h3>
 
 ***
+
 # Getting started
 To use MAWS, you will need to:
 1. Verify you meet the [requirements](#requirements)
