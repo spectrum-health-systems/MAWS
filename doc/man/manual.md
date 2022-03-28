@@ -51,4 +51,3 @@ The MAWS Manual (which you are reading *right now*) is updated with each release
 
 ## GETTING STARTED
 Ready to setup MAWS in your environment? [Let's get started!](manual-getting-started.md)
-***
