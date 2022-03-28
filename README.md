@@ -32,8 +32,7 @@
 
 <h3 align="center">
 
-  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](src/Resources/Doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](src/Resources/Doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](src/Resources/Doc/known-issues.md)&nbsp;&bull;&nbsp;[Support](src/Resources/Doc/support.md)
-  <br>
+  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](src/doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](src/doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](src/doc/known-issues.md)
 
 </h3>
 
