@@ -78,7 +78,7 @@ The **M**y**A**vatool **W**eb **S**ervice (**MAWS**) is one such custom web serv
 The [MAWS Manual](doc/man/manual.md) contains everything you need to know about MAWS, and is updated with each release.
 
 # Development
-MAWS is developed by [A Pretty Cool Program](https://aprettycoolprogram.com) and these [contributors](src/Resources/Doc/contributors.md), using these [third-party resources](src/Resources/Doc/built-with.md).
+MAWS is developed by [A Pretty Cool Program](https://github.com/APrettyCoolProgram) and these [contributors](src/Resources/Doc/contributors.md), using these [third-party resources](src/Resources/Doc/built-with.md).
 
 To contribute to the development branch of MAWS, please see our [contributing guidelines](src/Resources/Doc/contributing.md).
 
