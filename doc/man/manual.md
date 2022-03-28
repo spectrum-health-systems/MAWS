@@ -2,33 +2,33 @@
 
 <h6 align="center">
 
-  <img src="https://img.shields.io/badge/WARNING:-THIS%20IS%20BETA%20SOFTWARE-%23990000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/WARNING-THIS%20IS%20BETA%20SOFTWARE-FF160C?style=for-the-badge">
   
 </h6>
 
 ***
 
-<h2 align="center">
+<h1 align="center">
 
   <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
   <br>
-  MAWS Manual
+  Manual
+  <br>
+  <br>
 
-</h2>
+</h1>
 
 <h6 align="center">
   Last updated: March 28, 2022
 </h6>
-<br>
-
 
 ***
 
-<h5 align="center">
+<h3 align="center">
 
-  Home&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink events](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
+  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](doc/known-issues.md)
 
-</h5>
+</h3>
 
 ***
 
