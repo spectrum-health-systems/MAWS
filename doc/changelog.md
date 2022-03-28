@@ -9,7 +9,6 @@
   <br>
 
 </h1>
-<br>
 
 ## v0.50.0.0-b220328.105702 (2021-03-22)
 * `INFO` Refreshed repository framework
