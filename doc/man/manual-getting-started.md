@@ -39,7 +39,7 @@ To use MAWS, you will need to:
 
 ## Requirements
 * A location to host the Avatool Web Service which meets the following requirements:
-  * .NET Framework 4.6+ installed
+  * .NET Framework 4.8+ installed
   * Access to your myAvatar™ environments from the Avatool Web Service via HTTPS
 
 # Hosting MAWS

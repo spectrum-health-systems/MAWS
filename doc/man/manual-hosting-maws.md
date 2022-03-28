@@ -1,32 +1,33 @@
-﻿<!--
-  Software manual template (b210104)
-  https://github.com/APrettyCoolProgram/my-development-environment/tree/master/templates/documentation
--->
+﻿<!-- 220328.094653 -->
+
+<h6 align="center">
+
+  <img src="https://img.shields.io/badge/WARNING-THIS%20IS%20BETA%20SOFTWARE-FF160C?style=for-the-badge">
+  
+</h6>
+
+***
 
 <h1 align="center">
 
-  <img src="../../resources/asset/img/logo/maws-logo-800x150.png" alt="myAvatar Web Service logo" width="800">
+  <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
   <br>
-  MANUAL
+  Manual
   <br>
 
 </h1>
 
 <h6 align="center">
-
-  MAWS v0.8.x&nbsp;&bull;&nbsp;Last updated: April 21st, 2021
-
+  Last updated: March 28, 2022
 </h6>
 
 ***
 
-<h5 align="center">
+<h3 align="center">
 
-  [HOME](manual.md)&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;HOSTING MAWS&nbsp;&bull;&nbsp;[IMPORTING MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[ADDITIONAL INFORMATION](manual-additional-information.md)
+  [Home](manual.md)&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;Hosting&nbsp;&bull;&nbsp;[Importing](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
 
-</h5>
-
-***
+</h3>
 
 <!-- The HTML indentations have to stay this way to work. -->
 <table>
