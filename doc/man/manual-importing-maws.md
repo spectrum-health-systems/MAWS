@@ -35,16 +35,16 @@
 [Overview](#overview)<br>
 [Importing MAWS into your environment](#importing-maws-into-your-environment)<br>
 
-# OVERVIEW
+# Overview
 In order for myAvatar™ to use MAWS, you'll need to import MAWS into your myAvatar™ environments.
 
 ## Before you begin
 To continue with this documentations, you will need to know the location of MAWS in your environment.
 
-# IMPORTING MAWS INTO YOUR ENVIRONMENT
+# Importing MAWS into your environment
 Importing MAWS into your myAvatar™ environments is pretty simple. Here is how you do it.
 
-## CONFIRMING THE MAWS WSDL
+## Confirming the MAWS WSDL
 Before attempting to import MAWS into myAvatar™, you should make sure that you have a valid **W**eb **S**ervice **D**escription **L**anguage (**WSDL**) URL. To do this, paste the URL of the MAWS WSDL in a web browser and attempt to access the URL.
 
 For example, pointing a browser to `https://your-organization.com/MyAvatoolWebService.asmx?WSDL` should display XML that looks something like this:
@@ -62,7 +62,7 @@ If the WSDL file *is diplayed* in the browser, that URL is what you are going to
 
 If the WSDL file *is not displayed*, you'll need to get a valid WSDL location before continuing.
 
-## IMPORT THE MAWS WSDL
+## Importing the MAWS WSDL
 Any form can be used to import a web service, and once a web service has been imported it can be used by any form that allows ScriptLink events.
 
 We will use the *Admissions* form to import the MAWS WSDL:
@@ -96,7 +96,7 @@ We will use the *Admissions* form to import the MAWS WSDL:
 
 You should get a popup letting you know the WSDL was imported successfully.
 
-# NEXT: HOW TO USE MAWS
+# Next step: How to use MAWS
 Before you write ScriptLink events, you'll want to know [how MAWS works](manual-using-maws.md).
 
 ***
