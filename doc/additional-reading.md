@@ -6,7 +6,6 @@
   <br>
   Additional reading
   <br>
-  <br>
 
 </h1>
 

@@ -6,8 +6,7 @@
   <br>
   Acknowledgements
   <br>
-  <br>
-
+  
 </h1>
 
 None yet.

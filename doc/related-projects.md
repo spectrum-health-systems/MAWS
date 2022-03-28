@@ -6,7 +6,6 @@
   <br>
   Related projects
   <br>
-  <br>
 
 </h1>
 

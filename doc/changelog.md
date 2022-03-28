@@ -6,7 +6,6 @@
   <br>
   Changelog
   <br>
-  <br>
 
 </h1>
 

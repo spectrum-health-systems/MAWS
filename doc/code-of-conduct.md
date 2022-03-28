@@ -6,7 +6,6 @@
   <br>
   Code of conduct
   <br>
-  <br>
 
 </h1>
 

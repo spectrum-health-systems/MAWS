@@ -6,7 +6,6 @@
   <br>
   Contributors
   <br>
-  <br>
 
 </h1>
 

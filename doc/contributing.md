@@ -6,7 +6,6 @@
   <br>
   Contributing
   <br>
-  <br>
 
 </h1>
 

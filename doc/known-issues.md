@@ -6,7 +6,6 @@
   <br>
   Known issues
   <br>
-  <br>
 
 </h1>
 
