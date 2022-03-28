@@ -1,13 +1,5 @@
 ﻿<!-- 220328.094653 -->
 
-<h6 align="center">
-
-  <img src="https://img.shields.io/badge/WARNING-THIS%20IS%20BETA%20SOFTWARE-FF160C?style=for-the-badge">
-  
-</h6>
-
-***
-
 <h1 align="center">
 
   <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">

@@ -1,12 +1,27 @@
 ﻿<!-- 220328.094653 -->
 
-<h4 align="center">
+<h1 align="center">
 
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
+  <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
+  <br>
+  Manual
+  <br>
 
-</h4>
+</h1>
 
-# Additional information
+<h6 align="center">
+  Last updated: March 28, 2022
+</h6>
+
+***
+
+<h3 align="center">
+
+  [Home](manual.md)&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;Additional information
+
+</h3>
+
+***
 
 ## Development
 * [Sourcecode information](../../src/Resources/Dev/sourcecode-information.md)
@@ -17,9 +32,3 @@
 * [Creating a custom web service for myAvatar™](manual-custom-myavatar-web-services.md)
 
 ***
-
-<h5 align="center">
-
-  [HOME](manual.md)&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;[HOSTING MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[IMPORTING MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;ADDITIONAL INFORMATION
-
-</h5>
