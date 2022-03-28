@@ -11,27 +11,19 @@
 </h1>
 <br>
 
-### CONTENTS
-[OVERVIEW](#overview)<br>
-[CODE OF CONDUCT](#code-of-conduct)<br>
-[TEMPLATES](#templates)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[ISSUE TEMPLATE](#issue-template)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[PULL REQUEST TEMPLATE](#pull-request-template)<br>
-[TESTING](#testing)<br>
-
-# OVERVIEW
+# Overview
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-### Prerequisites
-* [.NET Framework 4.6](https://dotnet.microsoft.com/download/dotnet-framework)
+## Prerequisites
+* [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework)
 
-### Recommended
-* [Visual Studio Community 2019](https://visualstudio.microsoft.com/vs/) (including the extensions listed [here](https://github.com/APrettyCoolProgram/my-development-environment))
+## Recommended
+* [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/)
 
-# CODE OF CONDUCT
+# Code of conduct
 Please note we have a [Code of Conduct](code-of-conduct.md), please follow it in all your interactions with the project.
 
-# TEMPLATES
+# Templates
 
 ## ISSUE TEMPLATE
 
