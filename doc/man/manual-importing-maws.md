@@ -98,11 +98,3 @@ You should get a popup letting you know the WSDL was imported successfully.
 
 # Next step: How to use MAWS
 Before you write ScriptLink events, you'll want to know [how MAWS works](manual-using-maws.md).
-
-***
-
-<h5 align="center">
-
-  [HOME](manual.md)&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;[HOSTING MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;IMPORTING MAWS&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[ADDITIONAL INFORMATION](manual-additional-information.md)
-
-</h5>
