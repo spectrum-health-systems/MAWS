@@ -26,7 +26,7 @@
 
 <h3 align="center">
 
-  Home&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink events](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
+  Home&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
 
 </h3>
 
