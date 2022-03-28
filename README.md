@@ -14,7 +14,6 @@
   <br>
   A custom web service for Netsmart's myAvatar™ EHR
   <br>
-  <br>
 
 </h1>
 
