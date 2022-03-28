@@ -39,11 +39,6 @@
 
 ***
 
-<!-- The HTML indentations have to stay this way to work. -->
-<table>
-<tr>
-<td img src="non-existant-spacer.png" alt="non-existant-spacer" width="1000" height="1">
-
   ### CONTENTS
   [About](#about)<br>
   [Features](#features)<br>
@@ -51,10 +46,6 @@
   [Getting started](#getting-started)<br>
   [Development](#development)<br>
   [Additional information](#additional-information)<br>
-
-</td>
-</tr>
-</table>
 
 # About
 [Netsmart's myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
