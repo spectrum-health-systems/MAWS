@@ -9,9 +9,6 @@
   <br>
 
 </h1>
-<br>
-
-None yet.
 
 ## SOURCECODE COMMENTS
 MAWS is heavily commented.

@@ -9,7 +9,6 @@
   <br>
 
 </h1>
-<br>
 
 * manual-hosting-maws.md
     * instruction on where to put the files/how to publish

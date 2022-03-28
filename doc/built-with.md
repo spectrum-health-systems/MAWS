@@ -9,7 +9,6 @@
   <br>
 
 </h1>
-<br>
 
 MAWS was built with the following:
 
