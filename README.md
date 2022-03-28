@@ -32,7 +32,7 @@
 
 <h3 align="center">
 
-  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](src/doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](src/doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](src/doc/known-issues.md)
+  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](doc/known-issues.md)
 
 </h3>
 
