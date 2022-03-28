@@ -1,14 +1,18 @@
 ﻿<!-- 220328.094653 -->
 
-<h4 align="center">
+<h1 align="center">
 
   <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
+  <br>
+  Changelog
+  <br>
+  <br>
 
-</h4>
-
-# Changelog
+</h1>
+<br>
 
 ## v0.50.0.0-b220328.105702 (2021-03-22)
+* `INFO` Refreshed repository framework
 
 <br>
 <br>

@@ -1,4 +1,15 @@
-# MAWS: Code of Conduct
+<!-- 220328.094653 -->
+
+<h1 align="center">
+
+  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
+  <br>
+  Code of conduct
+  <br>
+  <br>
+
+</h1>
+<br>
 
 > **This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant][homepage]. By participating in this project you agree to abide by its terms.**
 
