@@ -1,13 +1,21 @@
 ﻿<!-- 220328.094653 -->
 
-<h1 align="center">
+<h6 align="center">
 
-  <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="myAvatar Web Service logo" width="384">
+  <img src="https://img.shields.io/badge/WARNING:-THIS%20IS%20BETA%20SOFTWARE-%23990000?style=for-the-badge">
+  
+</h6>
+
+***
+
+<h2 align="center">
+
+  <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
+  <br>MAWS Manual
   <br>
-  MANUAL
   <br>
 
-</h1>
+</h2>
 
 <h6 align="center">
 

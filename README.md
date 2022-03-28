@@ -7,7 +7,7 @@
 </h6>
 
 ***
-<br>
+
 <h2 align="center">
 
   <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
