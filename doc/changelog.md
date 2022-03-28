@@ -2,27 +2,29 @@
 
 <h4 align="center">
 
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="128">
+  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
 
 </h4>
 
 # Changelog
 
-## v0.8
+## v0.50.0.0-b220328.105702 (2021-03-22)
 
-### v0.8.21111.1535 (2021-04-21)
+<br>
+<br>
+
+<details>
+    <summary>Versions previous to v0.50</summary>
+
+#### v0.8.21111.1535 (2021-04-21)
 * `ADDED` /Resources/Dev/sourcecode-information.md
 * `RENAME` /Resources/Dev/current-versions.md -> /Resources/Dev/developent-information.md
 
-### v0.8.21111.1434 (2021-04-21)
+#### v0.8.21111.1434 (2021-04-21)
 * `ADDED` /Resources/Dev/current-versions.md
-
-***
 
 ## v0.3 - v0.7
 * `INFO` Code and comment cleanup
-
-***
 
 ## v0.2
 
@@ -56,8 +58,6 @@
 ### v0.2.0.0 (2021-01-13)
 * `INFO` Initial commit of v0.2 branch.
 
-***
-
 ## v0.1
 
 ## v0.1.21013.1420 - 0.1.21013.1712 (2021-01-13)
@@ -70,3 +70,5 @@
 
 # v0.0.0.0 (2021-01-12)
 * `INFO` This is a blank MAWS template.
+
+</details>

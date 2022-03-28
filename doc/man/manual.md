@@ -11,17 +11,16 @@
 <h2 align="center">
 
   <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
-  <br>MAWS Manual
   <br>
-  <br>
+  MAWS Manual
 
 </h2>
 
 <h6 align="center">
-
-  MAWS v0.8.x&nbsp;&bull;&nbsp;Last updated: March 28, 2021
-
+  Last updated: March 28, 2022
 </h6>
+<br>
+
 
 ***
 
