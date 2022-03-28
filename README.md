@@ -8,14 +8,16 @@
 
 ***
 
-<h2 align="center">
+<h1 align="center">
 
   <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
   <br>
   A custom web service for Netsmart's myAvatar™ EHR
   <br>
+  <br>
 
-</h2>
+</h1>
+<br>
 
 <h3 align="center">
 
