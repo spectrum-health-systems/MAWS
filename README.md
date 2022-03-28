@@ -91,10 +91,8 @@ To contribute to the development branch of MAWS, please see our [contributing gu
 
 <!-- DEVELOPMENT FOOTER -->
 
-<br>
-
 <h3 align="center">
 
-[![Developed by](https://img.shields.io/badge/developed%20by-A%20Pretty%20Cool%20Program-17806D)](https://github.com/APrettyCoolProgram)
+  [![Developed by](https://img.shields.io/badge/developed%20by-A%20Pretty%20Cool%20Program-17806D)](https://github.com/APrettyCoolProgram)
 
 </h3>
