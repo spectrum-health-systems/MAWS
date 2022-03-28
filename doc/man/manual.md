@@ -52,9 +52,3 @@ The MAWS Manual (which you are reading *right now*) is updated with each release
 ## GETTING STARTED
 Ready to setup MAWS in your environment? [Let's get started!](manual-getting-started.md)
 ***
-
-<h5 align="center">
-
-  HOME&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;[HOSTING MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[IMPORTING MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[ADDITIONAL INFORMATION](manual-additional-information.md)
-
-</h5>
