@@ -1,22 +1,17 @@
-﻿<!--
-  Software manual template (b210104)
-  https://github.com/APrettyCoolProgram/my-development-environment/tree/master/templates/documentation
--->
+﻿<!-- 220328.094653 -->
 
 <h1 align="center">
 
-  <img src="../../resources/asset/img/logo/maws-logo-800x150.png" alt="myAvatar Web Service logo" width="800">
+  <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
   <br>
-  CREATING CUSTOM MYAVATAR™ WEB SERVICES
+  Creating a custom myAvatar™ web service
   <br>
 
 </h1>
 
-<h5 align="center">
-
-  Last updated: April 21st, 2021
-
-</h5>
+<h6 align="center">
+  Last updated: March 28, 2022
+</h6>
 
 ***
 
