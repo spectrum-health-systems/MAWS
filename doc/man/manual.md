@@ -10,7 +10,7 @@
 
 <h2 align="center">
 
-  <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
+  <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
   <br>MAWS Manual
   <br>
   <br>
@@ -27,7 +27,7 @@
 
 <h5 align="center">
 
-  HOME&nbsp;&bull;&nbsp;[GETTING STARTED](manual-getting-started.md)&nbsp;&bull;&nbsp;[HOSTING MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[IMPORTING MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[USING MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[SCRIPTLINK EVENTS](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[ADDITIONAL INFORMATION](manual-additional-information.md)
+  Home&nbsp;&bull;&nbsp;[Getting started](manual-getting-started.md)&nbsp;&bull;&nbsp;[Hosting MAWS](manual-hosting-maws.md)&nbsp;&bull;&nbsp;[Importing MAWS](manual-importing-maws.md)&nbsp;&bull;&nbsp;[Using MAWS](manual-using-maws.md)&nbsp;&bull;&nbsp;[ScriptLink events](manual-scriptlink-events.md)&nbsp;&bull;&nbsp;[Additional information](manual-additional-information.md)
 
 </h5>
 
