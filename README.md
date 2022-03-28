@@ -1,7 +1,5 @@
-<!--
-  GitHub repository template (b210103)
-  https://github.com/APrettyCoolProgram/my-development-environment/tree/master/templates/github/
--->
+<!-- 220328.094653 -->
+
 <h6 align="center">
 
   <img src="https://img.shields.io/badge/WARNING:-THIS%20IS%20BETA%20SOFTWARE-%23990000?style=for-the-badge">
@@ -9,6 +7,8 @@
 </h6>
 
 ***
+
+<br>
 
 <h2 align="center">
 
@@ -32,10 +32,12 @@
 
 <h3 align="center">
 
-  [MANUAL](doc/man/manual.md)&nbsp;&bull;&nbsp;[CHANGELOG](src/Resources/Doc/changelog.md)&nbsp;&bull;&nbsp;[ROADMAP](src/Resources/Doc/roadmap.md)&nbsp;&bull;&nbsp;[KNOWN ISSUES](src/Resources/Doc/known-issues.md)&nbsp;&bull;&nbsp;[SUPPORT](src/Resources/Doc/support.md)
+  [Manual](doc/man/manual.md)&nbsp;&bull;&nbsp;[Changelog](src/Resources/Doc/changelog.md)&nbsp;&bull;&nbsp;[Roadmap](src/Resources/Doc/roadmap.md)&nbsp;&bull;&nbsp;[Known issues](src/Resources/Doc/known-issues.md)&nbsp;&bull;&nbsp;[Support](src/Resources/Doc/support.md)
   <br>
 
 </h3>
+
+***
 
 <!-- The HTML indentations have to stay this way to work. -->
 <table>
@@ -43,50 +45,47 @@
 <td img src="non-existant-spacer.png" alt="non-existant-spacer" width="1000" height="1">
 
   ### CONTENTS
-  [ABOUT](#about)<br>
-  [GETTING STARTED](#getting-started)<br>
-  [INSTALLING](#installing)<br>
-  [USING](#using)<br>
-  [UPDATING](#updating)<br>
-  [UNINSTALLING](#uninstalling)<br>
-  [DEVELOPMENT](#development)<br>
-  [ADDITIONAL INFORMATION](#additional-information)<br>
+  [About](#about)<br>
+  [Getting started](#getting-started)<br>
+  [Installing](#installing)<br>
+  [Using](#using)<br>
+  [Updating](#updating)<br>
+  [Uninstalling](#uninstalling)<br>
+  [Development](#development)<br>
+  [Additional information](#additional-information)<br>
 
 </td>
 </tr>
 </table>
 
-# ABOUT
+# About
 [Netsmart's myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
 
 While myAvatar™ is a robust platform, like most things in life (except [Heroes of Might and Magic III](https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition)), it isn't perfect.
 
 The good news is that myAvatar™ functionality can be extended via Netsmart's myAvatar™ Web Services, and/or custom web services that are written by myAvatar™ users.
 
-The myAvatool Web Service (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
+The MyAvatool Web Service (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
 
-## MAWS FEATURES
+## Features
 * Several built-in tools and utilities for use with myAvatar™
 * Does not require Java to be installed
 * A solid foundation to build additional myAvatar™ custom tools and utilities
 
-## THE MANUAL
-The [MAWS Manual](doc/man/manual.md) is updated with each release, and will walk you through setting up and using MAWS in your environments.
+## The manual
+The [MAWS Manual](doc/man/manual.md) contains everything you need to know about MAWS, and is updated with each release.
 
-## REQUIREMENTS
+## Requirements
 * A location to host the Avatool Web Service which meets the following requirements:
-  * .NET Framework 4.6+ installed
+  * .NET Framework 4.8+ installed
   * Access to your myAvatar™ environments from the Avatool Web Service via HTTPS
 
-# USING MAWS AT YOUR ORGANIZATION
-The [MAWS Manual](doc/man/manual.md) will walk your through setting up and using MAWS in your myAvatar™ environments.
-
-# DEVELOPMENT
+# Development
 MAWS is developed by [A Pretty Cool Program](https://aprettycoolprogram.com) and these [contributors](src/Resources/Doc/contributors.md), using these [third-party resources](src/Resources/Doc/built-with.md).
 
 To contribute to the development branch of MAWS, please see our [contributing guidelines](src/Resources/Doc/contributing.md).
 
-# ADDITIONAL INFORMATION
+# Additional information
 * [Acknowledgements](src/Resources/Doc/acknowledgements.md)
 * [Related projects](src/Resources/Doc/related-projects.md)
 * [Additional reading](src/Resources/Doc/additional-reading.md)
