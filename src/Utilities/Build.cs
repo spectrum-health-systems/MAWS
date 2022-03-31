@@ -1,10 +1,12 @@
-﻿// MAWS - The myAvatool Web Service
-// https://github.com/aprettycoolprogram/MAWS
-// Copyright (C) 2015-2022 A Pretty Cool Program
-// Licensed under Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//
-// Build various things.
-// b220121.094818
+﻿/* PROJECT: MAWS (https://github.com/aprettycoolprogram/MAWS)
+ *    FILE: MAWS.Lookup.AvatarClaimNumber_PayerClaimControlNumber.cs
+ * UPDATED: 3-22-2022-9:45 AM
+ * LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+ *          Copyright 2021 A Pretty Cool Program All rights reserved
+ */
+
+/* AvatarClaimNumber_PayerClaimControlNumber lookups.
+ */
 
 using System;
 using System.IO;

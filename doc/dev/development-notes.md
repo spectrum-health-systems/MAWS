@@ -10,6 +10,34 @@
 
 </h1>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Exception closed dispensing
 
 ### Process
@@ -24,11 +52,8 @@
 Dispensing History field = scrolling text field (10008)
 Dispensing Date field = date field (10007)
 
-### Test plan
-*
 
-### Next steps:
-* Rebecca and Odete
+
 
 ## Christine's request
 * Admission (Outpatient)
@@ -42,5 +67,3 @@ Dispensing Date field = date field (10007)
 ### Test plan
 *
 
-### Next steps:
-* Christine: Admission or Admission (Outpatient) form?
