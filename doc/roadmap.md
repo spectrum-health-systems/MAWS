@@ -1,13 +1,4 @@
-﻿<!-- 220328.094653 -->
-
-<h1 align="center">
-
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
-  <br>
-  Roadmap
-  <br>
-
-</h1>
+﻿# Roadmap
 
 * manual-hosting-maws.md
     * instruction on where to put the files/how to publish
@@ -36,3 +27,5 @@
 * Do the $"{}" thing with strings
 
 https://github.com/rcskids/ScriptLinkStandard
+
+<!-- 220418.113901 -->

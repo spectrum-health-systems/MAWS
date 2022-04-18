@@ -1,4 +1,4 @@
-﻿# Known issues
+# Authors
 
 None yet.
 
