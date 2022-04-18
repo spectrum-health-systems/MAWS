@@ -1,14 +1,3 @@
-<!-- 220328.094653 -->
-
-<h1 align="center">
-
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
-  <br>
-  Contributing
-  <br>
-
-</h1>
-
 # Overview
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
@@ -51,3 +40,5 @@ Provide a detailed description of any workarounds
 ## PULL REQUEST TEMPLATE
 
 # TESTING
+
+<!-- 220418.113901 -->

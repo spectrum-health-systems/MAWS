@@ -1,5 +1,3 @@
-<!-- 220418.112624 -->
-
 > **This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant](https://www.contributor-covenant.org/). By participating in this project you agree to abide by its terms.**
 
 ## Contributor Covenant Code of Conduct
@@ -71,3 +69,5 @@ Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcem
 
 For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.
+
+<!-- 220418.113901 -->
