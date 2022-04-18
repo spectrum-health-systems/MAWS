@@ -1,13 +1,11 @@
 ﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
 //    FILE: MAWS.MAWS.asmx.cs
-// UPDATED: 4-18-2022-12:22 PM
+// UPDATED: 4-18-2022-1:38 PM
 // LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
 //          Copyright 2020 A Pretty Cool Program All rights reserved
 
 // Entry point for MAWS.
-// b220201.103342
-
-
+// v0.99.0.0-b220418.122233
 
 /* ====================
  * ABOUT MAWS
@@ -27,9 +25,10 @@
  * NOTES ABOUT THIS CODE
  * ---------------------
  * I've tried to make this sourcecode as human-readable as possible, but since other organizations may use MAWS I've
- * decided to heavily comment everything as well (sometimes even in places where it is very clear as to what the code
+ * decided to heavily comment everything as well - sometimes even in places where it is very clear as to what the code
  * does. I know this goes against best practice, however since Netsmart doesn't do the best job of making everything
- * they do transparent, I want to make sure that my code is as clear as possible as to what it does, and how it's done.
+ * they do transparent, I want to make sure that my code is as clear as possible as to what it's doing, and how it's 
+ * doing it.
  * 
  * You will find three types of comments in this sourcecode:
  *
@@ -40,6 +39,7 @@
  * Please do not remove any of the sourcecode comments.
  */
 
+using System.Collections.Generic;
 using System.Reflection;
 using System.Web.Services;
 using NTST.ScriptLinkService.Objects;
@@ -73,12 +73,12 @@ namespace MAWS
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-            /* This can be used to write a troublshooting log to a local, non web server machine.
+            // TODO Should prob make this C:\MAWS\Devlogs\"
+            /* Enable this line to write a troubleshooting log to "C:\MAWS\Staging\Development\Devlogs\"
              */
-            LogEvent.Troubleshoot("maws-initialization");
+            //LogEvent.Troubleshoot("maws-initialization");
 
-            var mawsSession = Configuration.Session.Build(sentOptObj, sentMawsRequest);
-
+            Dictionary<string, string> mawsSession = Configuration.Session.Build(sentOptObj, sentMawsRequest);
 
             /* Get nice looking names for the assembly name and myAvatar username.
              */
@@ -88,7 +88,7 @@ namespace MAWS
 
             /* Initialize a new, empty OptionObject that we work on throughout MAWS.
              */
-            OptionObject2015 workOptObj = new OptionObject2015();
+            var workOptObj = new OptionObject2015();
             LogEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
 
             /* Depending on what mode MAWS is using, we will:
@@ -105,16 +105,12 @@ namespace MAWS
              */
             var mawsMode = Properties.Settings.Default.MawsMode.ToLower();
 
-
-
-
             //var mawsRequest = new Dictionary<string, string>
             //{
             //    { "mawsCommand", "" },
             //    { "mawsAction",  "" },
             //    { "mawsOptions", "" }
             //};
-
 
             switch(mawsMode)
             {

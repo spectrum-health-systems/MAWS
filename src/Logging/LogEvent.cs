@@ -1,10 +1,8 @@
-﻿// MAWS - The myAvatool Web Service
-// https://github.com/aprettycoolprogram/MAWS
-// Copyright (C) 2015-2022 A Pretty Cool Program
-// Licensed under Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//
-// Create logs for specific events.
-// b220124.111754
+﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
+//    FILE: MAWS.LogEvent.cs
+// UPDATED: 4-18-2022-12:29 PM
+// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+//          Copyright 2020 A Pretty Cool Program All rights reserved
 
 /* Since it's difficult to debug a web service, MAWS has a robust logging system which you can use to help troubleshoot
  * issues.
@@ -116,8 +114,8 @@ namespace MAWS
         private static void WriteToFile(string logType, string assemblyName, string avatarUserName, string logMessage, string callerFilePath,
                                         string callerMemberName, int callerLine)
         {
-            var logfilePath    = Build.LogfilePath(logType, assemblyName, avatarUserName, callerFilePath, callerLine);
-            var logfileContent = Build.LogfileContent(assemblyName, logMessage, callerFilePath, callerMemberName, callerLine);
+            var logfilePath    = Utilities.Build.LogfilePath(logType, assemblyName, avatarUserName, callerFilePath, callerLine);
+            var logfileContent = Utilities.Build.LogfileContent(assemblyName, logMessage, callerFilePath, callerMemberName, callerLine);
 
             File.WriteAllText(logfilePath, logfileContent);
         }
@@ -128,8 +126,8 @@ namespace MAWS
         private static void WriteToFile(string logType, string assemblyName, string avatarUserName, OptionObject2015 optObj, string logMessage,
                                         string callerfilePath, string callerMemberName, int callerLine)
         {
-            var logfilePath    = Build.LogfileName(logType, assemblyName, avatarUserName, callerfilePath, callerLine);
-            var logfileContent = Build.LogfileContents(assemblyName, logMessage, optObj, callerfilePath, callerMemberName, callerLine);
+            var logfilePath    = Utilities.Build.LogfileName(logType, assemblyName, avatarUserName, callerfilePath, callerLine);
+            var logfileContent = Utilities.Build.LogfileContents(assemblyName, logMessage, optObj, callerfilePath, callerMemberName, callerLine);
 
             File.WriteAllText(logfilePath, logfileContent);
         }
