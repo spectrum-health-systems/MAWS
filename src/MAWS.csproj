@@ -111,6 +111,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AppData\doc\" />
     <Folder Include="Roundhouse\" />
   </ItemGroup>
   <PropertyGroup>
