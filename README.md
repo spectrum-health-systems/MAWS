@@ -8,14 +8,14 @@
 
 ***
 
-<h1 align="center">
+<h2 align="center">
 
   <img src="resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="384">
   <br>
   A custom web service for Netsmart's myAvatar™ EHR
   <br>
 
-</h1>
+</h2>
 
 <h3 align="center">
 
@@ -24,6 +24,8 @@
   [![GitHub release](https://img.shields.io/github/v/release/spectrum-health-systems/MAWS)](https://github.com/spectrum-health-systems/MAWS/releases)&nbsp;
   [![Issues](https://img.shields.io/github/issues/spectrum-health-systems/MAWS)](https://github.com/spectrum-health-systems/MAWS/issues)&nbsp;
   [![Pulls](https://img.shields.io/github/issues-pr/spectrum-health-systems/MAWS)](https://github.com/spectrum-health-systems/MAWS/pulls)&nbsp;
+
+  **This is the development branch for v1.0.**
 
 </h3>
 
