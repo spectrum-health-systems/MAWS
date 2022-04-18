@@ -1,10 +1,13 @@
-﻿// MAWS - The myAvatool Web Service
-// https://github.com/aprettycoolprogram/MAWS
-// Copyright (C) 2015-2022 A Pretty Cool Program
-// Licensed under Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//
+﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
+//    FILE: MAWS.MAWS.asmx.cs
+// UPDATED: 4-18-2022-12:22 PM
+// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+//          Copyright 2020 A Pretty Cool Program All rights reserved
+
 // Entry point for MAWS.
 // b220201.103342
+
+
 
 /* ====================
  * ABOUT MAWS
