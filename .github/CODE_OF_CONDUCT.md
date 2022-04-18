@@ -1,15 +1,6 @@
-<!-- 220328.094653 -->
+<!-- 220418.112624 -->
 
-<h1 align="center">
-
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
-  <br>
-  Code of conduct
-  <br>
-
-</h1>
-
-> **This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant][homepage]. By participating in this project you agree to abide by its terms.**
+> **This project is released with a Contributor Code of Conduct, adapted from the [Contributor Covenant](https://www.contributor-covenant.org/). By participating in this project you agree to abide by its terms.**
 
 ## Contributor Covenant Code of Conduct
 

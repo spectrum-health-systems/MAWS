@@ -25,8 +25,6 @@
   [![Issues](https://img.shields.io/github/issues/spectrum-health-systems/MAWS)](https://github.com/spectrum-health-systems/MAWS/issues)&nbsp;
   [![Pulls](https://img.shields.io/github/issues-pr/spectrum-health-systems/MAWS)](https://github.com/spectrum-health-systems/MAWS/pulls)&nbsp;
 
-  **This is the development branch for v1.0.**
-
 </h3>
 
 ***
