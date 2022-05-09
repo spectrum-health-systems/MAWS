@@ -1,5 +1,5 @@
-# Authors
+>`Last updated: May 9, 2022`
 
-None yet.
+# MAWS: Authors
 
-<!-- 220418.113901 -->
+* [Chris Banwarth](https://github.com/APrettyCoolProgram)

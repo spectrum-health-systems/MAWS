@@ -1,5 +1,3 @@
-# Acknowledgements
+>`Last updated: May 9, 2022`
 
-None yet.
-
-<!-- 220418.113901 -->
+# MAWS: Acknowledgements

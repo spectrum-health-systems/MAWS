@@ -1,4 +1,4 @@
-﻿# Changelog
+﻿# MAWS: Changelog
 
 # v0.60.0.0
 * `INFO` No date on this because there has been alot of development I haven't documented, since it has mostly been code/comment cleanup.

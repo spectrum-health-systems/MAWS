@@ -1,12 +1,5 @@
-<!-- 220328.094653 -->
+>`Last updated: May 9, 2022`
 
-<h1 align="center">
+# MAWS: Support
 
-  <img src="../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
-  <br>
-  Support
-  <br>
-
-</h1>
-
-Soon.
+Nothing here yet.

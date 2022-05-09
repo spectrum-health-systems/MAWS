@@ -1,4 +1,6 @@
-# Built with
+>`Last updated: May 9, 2022`
+
+# MAWS: Built with
 
 MAWS was built with the following:
 
@@ -7,5 +9,3 @@ MAWS was built with the following:
 * [GitHub Desktop](https://desktop.github.com/)
 * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework)
 * [ScriptLinkStandard](https://rcskids.github.io/ScriptLinkStandard/api/scriptlinkstandard.objects/optionobject2015.html)
-
-<!-- 220418.113901 -->

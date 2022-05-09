@@ -1,5 +1,6 @@
-# Related projects
+>`Last updated: May 9, 2022`
 
-None yet.
+# MAWS: Related projects
 
-<!-- 220418.113901 -->
+* [myAvatar™ Development Community](https://github.com/myAvatar-Development-Community)<br>
+Lots of great myAvatar™-related information.
