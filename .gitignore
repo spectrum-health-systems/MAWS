@@ -10,6 +10,11 @@
 ##  - https://github.com/github/gitignore
 ################################################################################
 
+# Data/sourcecode that is used during development, but should not be committed
+# to the repository should go here.
+
+*.non-committal/
+
 ############################################################
 ## PLATFORM AGNOSTIC
 ############################################################
