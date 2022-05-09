@@ -1,11 +1,11 @@
 ﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
 //    FILE: MAWS.MAWS.asmx.cs
-// UPDATED: 4-18-2022-1:38 PM
+// UPDATED: 5-09-2022
 // LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2020 A Pretty Cool Program All rights reserved
+//          Copyright 2021 A Pretty Cool Program
 
 // Entry point for MAWS.
-// v0.99.0.0-b220418.133912
+// v0.99.0.0-b220509.083011
 
 /* ====================
  * ABOUT MAWS
@@ -17,7 +17,7 @@
  * READ THE MANUAL
  * --------------------
  *
- * To learn more MAWS, and how you can use it at your organization, please read the MAWS Manual:
+ * To learn more MAWS, and how you can use it at your organization, please read the MAWS Manual!
  * 
  *      https://github.com/spectrum-health-systems/MAWS/blob/main/doc/man/manual.md
  *      
@@ -84,12 +84,12 @@ namespace MAWS
              */
             var assemblyName   = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
             var avatarUserName = sentOptObj.OptionUserId;
-            LogEvent.Trace(assemblyName, avatarUserName);
+            MawsEvent.Trace(assemblyName, avatarUserName);
 
             /* Initialize a new, empty OptionObject that we work on throughout MAWS.
              */
             var workOptObj = new OptionObject2015();
-            LogEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
+            MawsEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
 
             /* Depending on what mode MAWS is using, we will:
              * 
@@ -115,28 +115,28 @@ namespace MAWS
             switch(mawsMode)
             {
                 case "enabled":
-                    LogEvent.Trace(assemblyName, avatarUserName);
+                    MawsEvent.Trace(assemblyName, avatarUserName);
                     // Point to Roundhouse.cs
                     break;
 
                 case "disabled":
-                    LogEvent.Trace(assemblyName, avatarUserName);
+                    MawsEvent.Trace(assemblyName, avatarUserName);
                     // Don't do anything, just return the data from sentOptObj.
                     break;
 
                 case "passthrough":
-                    LogEvent.Trace(assemblyName, avatarUserName);
+                    MawsEvent.Trace(assemblyName, avatarUserName);
                     // Just log things, don't make any changes to the data.
                     break;
 
                 default:
                     break;
             }
-            LogEvent.Trace(assemblyName, avatarUserName);
+            MawsEvent.Trace(assemblyName, avatarUserName);
 
             /* Finalize the workOptObj, and return it to Avatar.
              */
-            OptionObject2015 returnOptObj = OptObj.Finalize(sentOptObj, workOptObj);
+            OptionObject2015 returnOptObj = global::MAWS.Finalize.FinalizeIt(sentOptObj, workOptObj);
 
             return returnOptObj;
         }

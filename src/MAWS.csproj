@@ -74,10 +74,10 @@
     <Compile Include="Configuration\MawsSession.cs" />
     <Compile Include="Configuration\SettingsFile.cs" />
     <Compile Include="Data\Validate.cs" />
-    <Compile Include="OptObj\OptObj.cs" />
+    <Compile Include="OptionObject\Finalize.cs" />
     <Compile Include="SynaxEngine\MawsRequest.cs" />
     <Compile Include="Utilities\Build.cs" />
-    <Compile Include="Logging\LogEvent.cs" />
+    <Compile Include="Logging\MawsEvent.cs" />
     <Compile Include="Maintenance\FileSystem.cs" />
     <Compile Include="MAWS.asmx.cs">
       <DependentUpon>MAWS.asmx</DependentUpon>

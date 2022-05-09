@@ -3,7 +3,7 @@
 //    FILE: %Namespace%.%FileName%
 // UPDATED: %CurrentMonth%-%CurrentDay%-%CurrentYear%-%CurrentTime%
 // LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2020 A Pretty Cool Program All rights reserved
+//          Copyright 2021 A Pretty Cool Program
 
 extensions: .xaml
 <!--
@@ -11,6 +11,6 @@ extensions: .xaml
     FILE: %FileName%
     UPDATED: %CurrentMonth%-%CurrentDay%-%CurrentYear%-%CurrentTime%
     LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-    Copyright 2020 A Pretty Cool Program All rights reserved
+    Copyright 2021 A Pretty Cool Program
 -->
 

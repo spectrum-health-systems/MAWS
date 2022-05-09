@@ -1,8 +1,11 @@
 ﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.LogEvent.cs
-// UPDATED: 4-18-2022-12:29 PM
+//    FILE: MAWS.Logging.MawsEvent.cs
+// UPDATED: 5-09-2022
 // LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2020 A Pretty Cool Program All rights reserved
+//          Copyright 2021 A Pretty Cool Program
+
+// Data validation logic.
+// v0.0.1.0-b220509.083011
 
 /* Since it's difficult to debug a web service, MAWS has a robust logging system which you can use to help troubleshoot
  * issues.
@@ -15,7 +18,7 @@ using NTST.ScriptLinkService.Objects;
 
 namespace MAWS
 {
-    public class LogEvent
+    public class MawsEvent
     {
         public static void Startup()
         {

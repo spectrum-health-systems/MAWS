@@ -2,7 +2,7 @@
  *    FILE: MAWS.Lookup.AvatarClaimNumber_PayerClaimControlNumber.cs
  * UPDATED: 3-22-2022-9:45 AM
  * LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
- *          Copyright 2021 A Pretty Cool Program All rights reserved
+ *          Copyright 2021 A Pretty Cool Program
  */
 
 /* AvatarClaimNumber_PayerClaimControlNumber lookups.
