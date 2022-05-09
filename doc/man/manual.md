@@ -1,17 +1,19 @@
-﻿<!-- 220328.094653 -->
+﻿<!-- 220509.091500 -->
 
 <h1 align="center">
 
   <img src="../../resource/image/logo/MAWS-logo-512x350.png" alt="MyAvatool Web Service logo" width="256">
   <br>
-  Manual
+  MAWS Manual
   <br>
 
-</h1>
+  <h5>
 
-<h6 align="center">
-  Last updated: March 28, 2022
-</h6>
+  >Last updated: May 3, 2022
+
+  </h5>
+
+</h1>
 
 ***
 
