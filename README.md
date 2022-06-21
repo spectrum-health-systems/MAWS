@@ -4,13 +4,11 @@
 
   <img src="https://img.shields.io/badge/WARNING-THIS%20IS%20BETA%20SOFTWARE-FF160C?style=for-the-badge">
 
-<br>
+  <br>
 
-***
+  ***
 
-<br>
-
-<div align="center">
+  <br>
 
   <img src=".github/Resources/Assets/Logos/maws-logo-web-service-512x256.png" alt="MAWS logo" width="256">
   <h3> 
@@ -33,16 +31,31 @@
 
 <br>
 
-***
+# ABOUT
+[Netsmart's myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
 
-<h3 align="center">
+While myAvatar™ is a robust platform, like most things in life (except [Heroes of Might and Magic III](https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition)), it isn't perfect.
 
-  <img src=".github/Resources/Assets/Logos/maws-logo-web-service-512x256.png" alt="MAWS logo" width="256">
-  <br>
-  A custom myAvatar Web Service
-  <br>
+The good news is that myAvatar™ functionality can be extended via Netsmart's myAvatar™ Web Services, and/or custom web services that are written by myAvatar™ users.
 
+The **M**y**A**vatool **W**eb **S**ervice (**MAWS**) is one such custom web service which includes various tools and utilities for myAvatar™ that aren't included in the official release, and provides a solid foundation for building additional functionality quickly and efficiently.
 
+## Features
+* Several built-in tools and utilities for use with myAvatar™
+* Does not require Java to be installed
+* A solid foundation to build additional myAvatar™ custom tools and utilities
 
+## Requirements
+* A location to host the Avatool Web Service which meets the following requirements:
+  * .NET Framework 4.8+ installed
+  * Access to your myAvatar™ environments from the Avatool Web Service via HTTPS
 
-</h3>
+<br>
+
+# GETTING STARTED
+The [MAWS Manual](doc/man/manual.md) contains everything you need to know about MAWS, and is updated with each release.
+
+<br>
+
+# DEVELOPMENT
+MAWS is developed by [A Pretty Cool Program](https://github.com/APrettyCoolProgram) and these [contributors](src/Resources/Doc/contributors.md), using these [third-party resources](src/Resources/Doc/built-with.md).
