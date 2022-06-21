@@ -1,15 +1,15 @@
-﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.Configuration.SettingsFile.cs
-// UPDATED: 5-09-2022
-// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2021 A Pretty Cool Program
+﻿// ============================================================================================
+// MAWS: MyAvatar Web Service
+// A custom web service for Netsmart's myAvatar™ EHR.
+// https://github.com/spectrum-health-systems/MAWSC)
+// Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+// Copyright 2021-2022 A Pretty Cool Program
+// ============================================================================================
 
-// v0.60.0.0-b220509.093205
-
-/* =============================================================================
- * About this class
- * =============================================================================
- */
+// MAWS.Configuration.SettingsFile.cs
+// MAWS configuration settings logic.
+// b220621.131338
+// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Configuration.md
 
 using System.Collections.Generic;
 using System.Reflection;
@@ -18,9 +18,7 @@ namespace MAWS.Configuration
 {
     public class SettingsFile
     {
-        /// <summary>
-        /// 
-        /// </summary>
+        /// <summary></summary>
         /// <param name="avatarUserName"></param>
         /// <returns></returns>
         public static Dictionary<string, string> Build(string avatarUserName)

@@ -1,29 +1,25 @@
-﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.Data.Validate.cs
-// UPDATED: 5-09-2022
-// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2021 A Pretty Cool Program
+﻿// ============================================================================================
+// MAWS: MyAvatar Web Service
+// A custom web service for Netsmart's myAvatar™ EHR.
+// https://github.com/spectrum-health-systems/MAWSC)
+// Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+// Copyright 2021-2022 A Pretty Cool Program
+// ============================================================================================
 
-// v0.60.0.0-b220509.093205
-
-/* =============================================================================
- * About this class
- * =============================================================================
- */
+// MAWS.Data.Validate.cs
+// Logic dealing with MAWS data.
+// b220621.131338
+// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Data.md
 
 namespace MAWS
 {
     public class Validate
     {
-        /// <summary>
-        /// Validate the Avatar username.
-        /// </summary>
+        /// <summary>Validate the Avatar username.</summary>
         /// <param name="avatarUserName">The value of sentOptObj.OptionUserId.</param>
         /// <returns>A valid username.</returns>
         public static string AvatarUserName(string avatarUserName)
         {
-            /* If the value in sentOptObj.OptionUserId isn't an actual username, make the username a catch-all.
-             */
             return string.IsNullOrWhiteSpace(avatarUserName)
                 ? Properties.Settings.Default.FallbackAvatarUserName
                 : avatarUserName;

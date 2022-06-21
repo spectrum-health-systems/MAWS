@@ -1,27 +1,25 @@
-﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.Configuration.MawsSession.cs
-// UPDATED: 5-09-2022
-// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2021 A Pretty Cool Program
+﻿// ============================================================================================
+// MAWS: MyAvatar Web Service
+// A custom web service for Netsmart's myAvatar™ EHR.
+// https://github.com/spectrum-health-systems/MAWSC)
+// Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+// Copyright 2021-2022 A Pretty Cool Program
+// ============================================================================================
 
-// v0.60.0.0-b220509.093205
+// MAWS.Configuration.MawsSession.cs
+// MAWS configuration settings logic.
+// b220621.131338
+// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Configuration.md
 
-/* =============================================================================
- * About this class
- * =============================================================================
- */
-
+using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
 using System.Reflection;
-using NTST.ScriptLinkService.Objects;
 
 namespace MAWS.Configuration
 {
-    public class Session
+    public class MawsSession
     {
-        /// <summary>
-        /// Get the MAWS session information
-        /// </summary>
+        /// <summary>Get the MAWS session information.</summary>
         /// <param name="sentOptObj"></param>
         /// <param name="sentMawsRequest"></param>
         /// <returns></returns>
