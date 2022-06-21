@@ -8,5 +8,3 @@
   <br>
   <br>
 </h3>
-
-More information soon.
