@@ -25,7 +25,11 @@
 
   <br>
 
+   ***
+
   [![REPOSITORY](https://img.shields.io/badge/REPOSITORY-8e008e?style=for-the-badge)](https://github.com/spectrum-health-systems/MAWS)&nbsp;&nbsp;&nbsp;[![CHANGELOG](https://img.shields.io/badge/CHANGELOG-550055?style=for-the-badge)](Documentation/Changelog.md)&nbsp;&nbsp;&nbsp;[![ROADMAP](https://img.shields.io/badge/ROADMAP-550055?style=for-the-badge)](Documentation/Roadmap.md)&nbsp;&nbsp;&nbsp;[![MANUAL](https://img.shields.io/badge/MANUAL-550055?style=for-the-badge)](Documentation/Manual/MAWS-Manual.md)&nbsp;&nbsp;&nbsp;[![SOURCECODE-DOCUMENTATION](https://img.shields.io/badge/SOURCECODE%20DOCUMENTATION-550055?style=for-the-badge)](Documentation/Sourcecode/MAWS-Sourcecode.md)
+
+  ***
 
 </div>
 
