@@ -23,17 +23,13 @@
   [![Issues](https://img.shields.io/github/issues/spectrum-health-systems/MAWS?style=flat)](https://github.com/spectrum-health-systems/MAWS/issues)&nbsp;
   [![Pulls](https://img.shields.io/github/issues-pr/spectrum-health-systems/MAWSC?style=flat)](https://github.com/spectrum-health-systems/MAWS/pulls)
 
-  <br>
-
-   ***
+  ***
 
   [![REPOSITORY](https://img.shields.io/badge/REPOSITORY-8e008e?style=for-the-badge)](https://github.com/spectrum-health-systems/MAWS)&nbsp;&nbsp;&nbsp;[![CHANGELOG](https://img.shields.io/badge/CHANGELOG-550055?style=for-the-badge)](Documentation/Changelog.md)&nbsp;&nbsp;&nbsp;[![ROADMAP](https://img.shields.io/badge/ROADMAP-550055?style=for-the-badge)](Documentation/Roadmap.md)&nbsp;&nbsp;&nbsp;[![MANUAL](https://img.shields.io/badge/MANUAL-550055?style=for-the-badge)](Documentation/Manual/MAWS-Manual.md)&nbsp;&nbsp;&nbsp;[![SOURCECODE-DOCUMENTATION](https://img.shields.io/badge/SOURCECODE%20DOCUMENTATION-550055?style=for-the-badge)](Documentation/Sourcecode/MAWS-Sourcecode.md)
 
   ***
 
 </div>
-
-<br>
 
 # ABOUT
 [Netsmart's myAvatar™](https://www.ntst.com/Solutions-and-Services/Offerings/myAvatar) is a behavioral health EHR that offers a recovery-focused suite of solutions that leverage real-time analytics and clinical decision support to drive value-based care.
