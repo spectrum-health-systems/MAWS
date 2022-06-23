@@ -43,26 +43,19 @@ You will find three types of comments in this sourcecode:
 [MAWS.Configuration](#mawsconfiguration)
 
 ## MAWS
-
-### MAWS.asmx.cs
-> Entry point for MAWS. 
-
+* MAWS.asmx.cs is the entry point for MAWS
 * When you make a MAWS request via a ScriptLink event, this is where that request ends up.
 * Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 * In order to keep this class short, most requests are processed by outside methods/classes.
 
-***
-
-#### MAWSC.GetVersion()
+### MAWSC.GetVersion()
 > Returns the version of MAWS.
 
 * This method is required by myAvatar.
 * The version number doesn't change during development. For example, while developing v2.0.x.x, this method will aways return "VERSION 2.0".
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
 
-***
-
-#### MAWSC.RunScript()
+### MAWSC.RunScript()
 > Executes a MAWS Request.
 
 1. Sets up a few nice looking names for values we'll be using.
@@ -76,7 +69,26 @@ You will find three types of comments in this sourcecode:
 * This method is required by myAvatar.
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
 
-##
+***
+
+## MAWS.Configuration
+* Does various things with configuration settings and files.
+
+### MAWS.Configuration.MawsSession.Build()
+* This doesn't return anything (220621)
+
+## MAWS.Configuration.SettingsFile.cs
+
+## MAWS.Configuration.SettingsFile.Build()
+1. Return a dictionary with the following setting values:
+    - `MawsMode`
+    - `LogMode`
+    - `MawsRootDir`
+    - `FallbackAvatarUserName`
+
+* These settings are derived from the configuration file, but we need to confirm that making changes to the local config file override these.
+
+***
 
 
 
