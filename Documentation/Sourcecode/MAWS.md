@@ -1,17 +1,18 @@
 <!-- b220621.115657 -->
 
-<div align="center">
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS namespace**
 
+***
+
+<div align="center">
+  <br>
   <h1> 
 
     MAWS SOURCODE DOCUMENTATION
   </h1>
-
 </div>
 
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS**
-
-# **MAWS.asmx.cs**
+# MAWS.asmx.cs
 > Entry point for MAWS. 
 
 * When you make a MAWS request via a ScriptLink event, this is where that request ends up.
@@ -42,3 +43,9 @@
 
 * This method is required by myAvatar.
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
+
+<br>
+
+***
+
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS namespace**
