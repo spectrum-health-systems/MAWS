@@ -5,7 +5,6 @@
 ***
 
 <div align="center">
-  <br>
   <h1> 
 
     MAWS SOURCODE DOCUMENTATION
