@@ -40,6 +40,7 @@ You will find three types of comments in this sourcecode:
 # NAMESPACES
 
 [MAWS](MAWS.md)
+[MAWS.Configuration](MAWS.Configuration.md)
 
 # ADDITIONAL READING
 
