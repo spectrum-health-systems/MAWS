@@ -12,8 +12,7 @@
 </div>
 
 # MAWS.asmx.cs
-> Entry point for MAWS. 
-
+* Entry point for MAWS. 
 * When you make a MAWS request via a ScriptLink event, this is where that request ends up.
 * Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 * In order to keep this class short, most requests are processed by outside methods/classes.
