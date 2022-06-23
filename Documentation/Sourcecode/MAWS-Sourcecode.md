@@ -39,7 +39,7 @@ You will find three types of comments in this sourcecode:
 
 # NAMESPACES
 
-[MAWS](#maws)
+[MAWS](#maws)<br>
 [MAWS.Configuration](#mawsconfiguration)
 
 ## MAWS
@@ -53,7 +53,7 @@ You will find three types of comments in this sourcecode:
 
 ***
 
-### MAWSC.GetVersion()
+#### MAWSC.GetVersion()
 > Returns the version of MAWS.
 
 * This method is required by myAvatar.
@@ -62,7 +62,7 @@ You will find three types of comments in this sourcecode:
 
 ***
 
-### MAWSC.RunScript()
+#### MAWSC.RunScript()
 > Executes a MAWS Request.
 
 1. Sets up a few nice looking names for values we'll be using.
