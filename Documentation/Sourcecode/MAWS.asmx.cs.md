@@ -4,6 +4,9 @@
 
 ***
 
+
+https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method
+
 <br>
 
 # **MAWS.asmx.cs**
