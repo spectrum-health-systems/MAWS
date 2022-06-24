@@ -36,5 +36,4 @@ namespace MAWS.Configuration
     }
 }
 
-
-// TODO rename this
+// TODO Rename Build(), since it's too generic.

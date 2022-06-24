@@ -17,11 +17,10 @@
 
 </div>
 
-# ABOUT
-There will be more information about how configuration files work here soon.
-
 # `NAMESPACE` MAWS.Configuration
 The **MAWS.Configuration** namespace handles any logic related to configuration files and settings.
+
+There will be more information about how configuration files work here soon.
 
 ## `CLASS` MawsSession.cs
 This class handles anything related to the current MAWS session variables.
