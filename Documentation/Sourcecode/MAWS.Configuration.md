@@ -22,19 +22,15 @@
 # `NAMESPACE` MAWS.Configuration
 The **MAWS.Configuration** namespace handles any logic related to configuration files and settings.
 
+### MAWS configuration files
 There will be more information about how configuration files work here soon.
 
-
-
-#### Namespace classes
+### Namespace classes
 
 | Name | Description |
 | ---- | ----------- |
-| [MAWS.Configuration.MawsSession.cs](#mawsconfigurationmawssessioncs) | Handles anything related to the current MAWS session variables |
-| [MAWS.Configuration.SettingsFile.cs](#mawsconfigurationsettingsfilecs) | Handles anything related to the configuration file. |
-
-* [MAWS.Configuration.MawsSession.cs](#mawsconfigurationmawssessioncs)
-* [MAWS.Configuration.SettingsFile.cs](#mawsconfigurationsettingsfilecs)
+| [MAWS.Configuration.MawsSession.cs](#mawsconfigurationmawssessioncs) | Logic for current MAWS session variables |
+| [MAWS.Configuration.SettingsFile.cs](#mawsconfigurationsettingsfilecs) | Logic for MAWS configuration files |
 
 # MAWS.Configuration.MawsSession.cs
 This class handles anything related to the current MAWS session variables.
