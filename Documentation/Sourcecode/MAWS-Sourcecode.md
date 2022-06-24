@@ -30,12 +30,12 @@ Attempts have been made to make the MAWS sourcecode as human-readable as possibl
 
 That being said, you will find the following types of comments in the MAWS sourcecode:
 
-* /// XML comments used by Visual Studio
-* // Additional information
-* /* Single-line narrative comments */
-* /* Multiple-line<br>
-&nbsp;*&nbsp;&nbsp; narrative comments<br>
-&nbsp;*/
+* `///` XML comments used by Visual Studio
+* `//` Additional information
+* `/*` Single-line narrative comments `*/`
+* `/*` Multiple-line<br>
+&nbsp;`*`&nbsp;&nbsp;narrative comments<br>
+&nbsp;`*/`
 
 # VARIABLES
 
