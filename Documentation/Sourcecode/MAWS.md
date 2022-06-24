@@ -29,6 +29,7 @@ As it is mostly a "clearing house" for MAWS Requests, there is only one class (`
 Please note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 
 ## MAWS.asmx.cs
+This is the only class in the MAWS namespace.
 
 ### MAWSC.GetVersion()
 > Returns the version of MAWS.

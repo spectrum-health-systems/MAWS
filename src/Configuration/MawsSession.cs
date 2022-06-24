@@ -35,3 +35,6 @@ namespace MAWS.Configuration
         }
     }
 }
+
+
+// TODO rename this
