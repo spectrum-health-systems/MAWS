@@ -22,7 +22,9 @@
 # ABOUT THIS DOCUMENT
 This is detailed documentation about the MAWS sourcecode, which includes:
 
-Information about sourcecode [comments](#sourcecode-comments) and [variables](#variables)
+* Information about sourcecode [comments](#sourcecode-comments) and [variables](#variables).
+
+* Detailed information about each [namespace](#namespaces), and the classes and methods within.
 
 # SOURCECODE COMMENTS
 Attempts have been made to make this sourcecode as human-readable as possible, but since other organizations may use MAWSC, it is heavily comment everything as well - sometimes even in places where it is very clear as to what the code does.
@@ -45,10 +47,9 @@ For example, one of the first things MAWS does when it executes is to get the `m
 ## Variable prefixes
 
 ### "Sent" variables
-If a variable name starts with "sent" (e.g., `sentOptObj`), the data it contains is the original data sent from myAvatar. These values should not be modified at any point.
+If a variable name starts with "sent" (e.g., `"sentOptObj"`), the data it contains is the original data sent from myAvatar. These values should not be modified at any point.
 
-For example, the `sentMawsRequest` will always be the value sent via a ScriptLink event, and therefore you can always determine what the original MAWS request was.
-
+For example, the `"sentMawsRequest"` will always be the value sent via a ScriptLink event, and therefore you can always determine what the original MAWS request was.
 
 # ADDITIONAL READING
 It may be helpful to review the [Creating a Custom Web Service](
