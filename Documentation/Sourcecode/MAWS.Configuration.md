@@ -42,13 +42,13 @@ This class handles anything related to the current MAWS session variables.
 | [MawsSession.Build](#mawsconfigurationmawssessioncs) | Get MAWS session information |
 
 ## `METHOD` Build()
-> Get the MAWS session information.
+This method gets the setting for a specific MAWS session.
 
 ### Details
-This doesn't return anything (220621).
+No details.
 
 ### Notes
-* No notes.
+* This doesn't return anything (220621).
 
 # `CLASS` SettingsFile.cs
 This class handles anthing related to the configuration file.

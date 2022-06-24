@@ -7,8 +7,8 @@
 // ============================================================================================
 
 // MAWS.Configuration.MawsSession.cs
-// MAWS configuration settings logic.
-// b220621.131338
+// Logic for current MAWS session variables.
+// b220624.112912
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Configuration.md
 
 using NTST.ScriptLinkService.Objects;
@@ -19,7 +19,7 @@ namespace MAWS.Configuration
 {
     public class MawsSession
     {
-        /// <summary>Get the MAWS session information.</summary>
+        /// <summary>Get MAWS session information.</summary>
         /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param>
         /// <param name="sentMawsRequest">The MAWS request to be executed.</param>
         /// <returns>MAWS session configuration settings.</returns>

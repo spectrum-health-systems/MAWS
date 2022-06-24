@@ -7,8 +7,8 @@
 // ============================================================================================
 
 // MAWS.Configuration.SettingsFile.cs
-// MAWS configuration settings logic.
-// b220621.131338
+// Logic for MAWS configuration files.
+// b220624.112939
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Configuration.md
 
 using System.Collections.Generic;
