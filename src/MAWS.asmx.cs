@@ -4,11 +4,11 @@
 // https://github.com/spectrum-health-systems/MAWSC)
 // Apache v2 (https://apache.org/licenses/LICENSE-2.0)
 // Copyright 2021-2022 A Pretty Cool Program
-// ================================================================= [ 220624.091752-devbuild ]
+// ================================================================= [ 220624.122818-devbuild ]
 
 // MAWS.asmx.cs
 // Entry point for MAWS.
-// b220624.091757
+// b220624.122823
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.asmx.cs.md
 
 /* ABOUT MAWS
@@ -66,7 +66,6 @@ namespace MAWS
             // Uncomment the following line to enable troubleshooting logs.
             //LogEvent.Troubleshoot("maws-initialization"); // TODO Should prob make this C:\MAWS\Devlogs\"
 
-            // WTF is this?
             Dictionary<string, string> mawsSession = Configuration.MawsSession.Build(sentOptObj, sentMawsRequest);
 
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();

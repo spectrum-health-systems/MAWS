@@ -1,20 +1,20 @@
-﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.Utilties.Build.cs
-// UPDATED: 5-09-2022
-// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2021 A Pretty Cool Program
+﻿// ============================================================================================
+// MAWS: MyAvatar Web Service
+// A custom web service for Netsmart's myAvatar™ EHR.
+// https://github.com/spectrum-health-systems/MAWSC)
+// Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+// Copyright 2021-2022 A Pretty Cool Program
+// ============================================================================================
 
-// v0.60.0.0-b220509.093205
+// MAWS.Utilties.Build.cs
+// Dunno.
+// b220624.115605
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
-/* =============================================================================
- * About this class
- * =============================================================================
- */
-
+using NTST.ScriptLinkService.Objects;
 using System;
 using System.IO;
 using System.Threading;
-using NTST.ScriptLinkService.Objects;
 
 namespace MAWS.Utilities
 {
@@ -22,9 +22,9 @@ namespace MAWS.Utilities
     {
         public static string LogfilePath(string logType, string assemblyName, string origAvatarUserName, string callerFilePath, int callerLine)
         {
-            var mawsRootDir      = Properties.Settings.Default.MawsRootDir;
-            var currentDate      = DateTime.Now.ToString("yyMMdd");
-            var avatarUserName   = Validate.AvatarUserName(origAvatarUserName);
+            var mawsRootDir = Properties.Settings.Default.MawsRootDir;
+            var currentDate = DateTime.Now.ToString("yyMMdd");
+            var avatarUserName = Validate.AvatarUserName(origAvatarUserName);
             var logfileDirectory = $@"{mawsRootDir}/{currentDate}/{avatarUserName}";
 
             FileSystem.VerifyDirectoryExists(logfileDirectory);
@@ -36,13 +36,13 @@ namespace MAWS.Utilities
 
         public static string LogfileName(string logType, string assemblyName, string avatarUserName, string callerFilePath, int callerLine)
         {
-            var currentTime                    = DateTime.Now.ToString($"HHmmss.fffffff");
-            var fileExtensionLocation          = callerFilePath.IndexOf('.');
+            var currentTime = DateTime.Now.ToString($"HHmmss.fffffff");
+            var fileExtensionLocation = callerFilePath.IndexOf('.');
             var callerfilePathWithoutExtension = callerFilePath.Remove(fileExtensionLocation);
 
             var logfileName = $"{currentTime}-{assemblyName}-{callerfilePathWithoutExtension}-{callerLine}.{logType}";
 
-            if(File.Exists(logfileName))
+            if (File.Exists(logfileName))
             {
                 Thread.Sleep(10);
                 currentTime = DateTime.Now.ToString($"HHmmss.fffffff");
@@ -92,7 +92,7 @@ namespace MAWS.Utilities
         public static string LogfileContents(string assemblyName, string logMessage, OptionObject2015 optObj, string callerFilePath, string callerMemberName, int callerLine)
         {
             var logHeader = Build.LogHeader(logMessage);
-            var logBody   = Build.LogBody(optObj);
+            var logBody = Build.LogBody(optObj);
             var logFooter = Build.LogFooter(assemblyName, callerFilePath, callerMemberName, callerLine);
 
             var logContents = $"{logHeader}"+

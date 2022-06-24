@@ -27,10 +27,10 @@ namespace MyAvatoolWebService
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptionObject, string mawsRequest)
         {
-            var dateStamp = DateTime.Now.ToString("yyMMdd");
+/*             var dateStamp = DateTime.Now.ToString("yyMMdd");
             var timeStamp = DateTime.Now.ToString($"HHmmss.fffffff");
             var userName = sentOptionObject.OptionUserId;
-            File.WriteAllText($@"C:\MAWS\temp_prod\{dateStamp}-{timeStamp}_p.{userName}", "temp_prod");
+            File.WriteAllText($@"C:\MAWS\temp_prod\{dateStamp}-{timeStamp}_p.{userName}", "temp_prod"); */
 
             var finalOptionObject = new OptionObject2015();
 

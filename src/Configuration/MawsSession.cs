@@ -25,6 +25,16 @@ namespace MAWS.Configuration
         /// <returns>MAWS session configuration settings.</returns>
         public static Dictionary<string, string> Build(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
+
+
+            var dateStamp = DateTime.Now.ToString("yyMMdd");
+            var timeStamp = DateTime.Now.ToString($"HHmmss.fffffff");
+            var userName = sentOptionObject.OptionUserId;
+            File.WriteAllText($@"C:\MAWS\temp_prod\{dateStamp}-{timeStamp}_p.{userName}", "temp_prod");
+
+
+
+
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
             MawsEvent.Trace(sentOptObj.OptionUserId, assemblyName);
 
