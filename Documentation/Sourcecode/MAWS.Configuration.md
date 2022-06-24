@@ -19,33 +19,41 @@
 
 <br>
 
-# **MAWS.Configuration** NAMESPACE
+# ABOUT THE **MAWS.Configuration** NAMESPACE
 The MAWS.Configuration namespace handles any logic related to configuration files and settings.
 
+This namespace contains the following classes:
+[MAWS.Configuration.MawsSession](#mawsconfigurationmawssessioncs)<br>
+[MAWS.Configuration.SettingsFile](#mawsconfigurationsettingsfilecs)
+
+## About the MAWS configuration file
 There will be more information about how configuration files work here soon.
 
-## MAWS.Configuration.MawsSession.cs
+# MAWS.Configuration.MawsSession.cs
 This class handles anything related to the current MAWS session variables.
 
-### MAWS.Configuration.MawsSession.Build()
+This class contains the following method:
+[MawsSession.Build()](#mawssessionbuild)
+
+## MawsSession.Build()
 > Get the MAWS session information.
 
-#### Details
+### Details
 This doesn't return anything (220621).
 
-#### Notes
+### Notes
 * No notes.
 
-## MAWS.Configuration.SettingsFile.cs
+# MAWS.Configuration.SettingsFile.cs
 This class handles anthing related to the configuration file.
 
-### MAWS.Configuration.SettignsFile.Build()
+## SettignsFile.Build()
 > Get the MAWS session information.
 
-#### Details
+### Details
 This doesn't return anything (220621).
 
-#### Notes
+### Notes
 * No notes.
 
 
