@@ -19,10 +19,12 @@
 
 <br>
 
-# ABOUT
-This is detailed documentation about the MAWS sourcecode.
+# ABOUT THIS DOCUMENT
+This is detailed documentation about the MAWS sourcecode, which includes:
 
-# Sourcecode comments
+Information about sourcecode [comments](#sourcecode-comments) and [variables](#variables)
+
+# SOURCECODE COMMENTS
 Attempts have been made to make this sourcecode as human-readable as possible, but since other organizations may use MAWSC, it is heavily comment everything as well - sometimes even in places where it is very clear as to what the code does.
  
 You will find three types of comments in this sourcecode:
@@ -33,7 +35,7 @@ You will find three types of comments in this sourcecode:
 
  Please do not remove any of the sourcecode comments!
 
-# Variables
+# VARIABLES
 
 ## Forced lowercase without leading/trailing whitespace
 Most logic in MAWS is checked against lowercase values without any leading/trailing whitespace, so (in general) MAWS will reduce a variable to its trimmed, lowercase value. This is done as soon as possible, usually when a variable is declared.
