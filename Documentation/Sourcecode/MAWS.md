@@ -9,6 +9,12 @@
 
     MAWS SOURCODE DOCUMENTATION
   </h1>
+
+  <h2> 
+
+    MAWS NAMESPACE
+  </h2>
+
 </div>
 
 # MAWS
