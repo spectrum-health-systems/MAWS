@@ -19,7 +19,7 @@
 
 <br>
 
-# **MAWS** NAMESPACE
+# `NAMESPACE` MAWS
 The MAWS namespace is the entry point for MAWS. When you make a MAWS request via a ScriptLink event, this is where that request ends up.
 
 As it is mostly a "clearing house" for MAWS Requests, there is only one class (`MAWS.asmx.cs`) and two methods ("`GetVersion()`", "`RunScript()`"), and those methods are fairly generic - all other functionality and logic is handled by external code. This means that things here rarely change, so ScriptLink events have a known, stable target.
@@ -28,10 +28,10 @@ As it is mostly a "clearing house" for MAWS Requests, there is only one class (`
 
 Please note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 
-## MAWS.asmx.cs
+## `CLASS` MAWS.asmx.cs
 This is the only class in the MAWS namespace.
 
-### MAWSC.GetVersion()
+### `METHOD` GetVersion()
 > Returns the version of MAWS.
 
 #### Details
@@ -42,7 +42,7 @@ This method is pretty straight forward, and doesn't change.
 * The version number doesn't change during development. For example, while developing v2.0.x.x, this method will aways return `VERSION 2.0`.
 * You can find more information about the `GetVersion()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
 
-### MAWSC.RunScript()
+### `METHOD` RunScript()
 > Executes a MAWS Request.
 
 #### Details

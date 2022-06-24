@@ -57,8 +57,8 @@ If a variable name starts with "sent" (e.g., `"sentOptObj"`), the data it contai
 For example, the `"sentMawsRequest"` will always be the value sent via a ScriptLink event, and therefore you can always determine what the original MAWS request was.
 
 # NAMESPACES
-[MAWS](MAWS.md)<br>
-[MAWS.Configuration](MAWS.Configuration.md)
+* [MAWS](MAWS.md)
+* [MAWS.Configuration](MAWS.Configuration.md)
 
 # ADDITIONAL READING
 It may be helpful to review the [Creating a Custom Web Service](

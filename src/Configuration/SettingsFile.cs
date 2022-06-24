@@ -39,5 +39,4 @@ namespace MAWS.Configuration
     }
 }
 
-
-// TODO rename this. It's configuration or settings.
+// TODO Rename Build(), since it's too generic. Also, it is "settings" or "configuration"?

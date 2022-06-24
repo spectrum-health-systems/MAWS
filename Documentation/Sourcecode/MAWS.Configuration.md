@@ -23,10 +23,10 @@ The **MAWS.Configuration** namespace handles any logic related to configuration 
 There will be more information about how configuration files work here soon.
 
 ## `CLASS` MawsSession.cs
-This class handles anything related to the current MAWS session variables.
+Logic for current MAWS session variables.
 
 ### `METHOD` Build()
-This method gets the setting for a specific MAWS session.
+Get MAWS session information.
 
 #### Details
 No details.
@@ -35,10 +35,10 @@ No details.
 * This doesn't return anything (220621).
 
 ## `CLASS` SettingsFile.cs
-This class handles anthing related to the configuration file.
+Logic for MAWS configuration files.
 
 ### `METHOD` Build()
-> Get the MAWS session information.
+> TBD
 
 #### Details
 1. Return a dictionary with the following setting values:
