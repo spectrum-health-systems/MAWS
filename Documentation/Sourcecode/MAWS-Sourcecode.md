@@ -1,4 +1,4 @@
-<!-- b220621.115657 -->
+<!-- b220624.102340 -->
 
 [MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **Sourcecode documentation**
 
@@ -29,6 +29,9 @@ This is detailed documentation about the MAWS sourcecode, which includes:
 Attempts have been made to make the MAWS sourcecode as human-readable as possible, so I'm keeping the comments to a minimum. The document you are currently reading is the primary source of information about how everything works.
 
 That being said, you will find the following types of comments in the MAWS sourcecode:
+```
+/// XML comments used by Visual Studio
+```
 
 * `///` XML comments used by Visual Studio
 * `//` Additional information
