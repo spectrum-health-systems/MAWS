@@ -32,13 +32,13 @@ There will be more information about how configuration files work here soon.
 | [MAWS.Configuration.MawsSession.cs](#mawsconfigurationmawssessioncs) | Logic for current MAWS session variables |
 | [MAWS.Configuration.SettingsFile.cs](#mawsconfigurationsettingsfilecs) | Logic for MAWS configuration files |
 
-# `CLASS` MAWS.Configuration.MawsSession
+# `CLASS`MawsSession
 This class handles anything related to the current MAWS session variables.
 
 This class contains the following method:
 * [MawsSession.Build](#mawssessionbuild)
 
-## `METHOD` MawsSession.Build
+## `METHOD` Build
 > Get the MAWS session information.
 
 ### Details
@@ -47,10 +47,10 @@ This doesn't return anything (220621).
 ### Notes
 * No notes.
 
-# `CLASS` MAWS.Configuration.SettingsFile
+# `CLASS` SettingsFile
 This class handles anthing related to the configuration file.
 
-## `METHOD` SettignsFile.Build
+## `METHOD` Build
 > Get the MAWS session information.
 
 ### Details
