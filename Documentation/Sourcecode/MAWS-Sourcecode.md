@@ -26,7 +26,7 @@ This is detailed documentation about the MAWS sourcecode, which includes:
 * Detailed information about each [namespace](#namespaces), and the classes and methods within.
 
 # SOURCECODE COMMENTS
-Attempts have been made to make this sourcecode as human-readable as possible, so I'm keeping the comments to a minimum. The document you are currently reading is the primary source of information about how everything works.
+Attempts have been made to make the MAWS sourcecode as human-readable as possible, so I'm keeping the comments to a minimum. The document you are currently reading is the primary source of information about how everything works.
 
 That being said, you will find the following types of comments in the MAWS sourcecode:
 
@@ -38,7 +38,7 @@ That being said, you will find the following types of comments in the MAWS sourc
 
 # VARIABLES
 
-## Forced lowercase without leading/trailing whitespace
+## Standard casing/whitespace
 Most logic in MAWS is checked against lowercase values without any leading/trailing whitespace, so (in general) MAWS will reduce a variable to its trimmed, lowercase value. This is done as soon as possible, usually when a variable is declared.
 
 For example, one of the first things MAWS does when it executes is to get the `mawsMode` from the settings file, and that value *should* be lowercase. But since it would be a bad idea to assume that - since anything other than a lowercase value without leading/trailing whitespace will cause errors, we will force `.Trim().ToLower()`.
