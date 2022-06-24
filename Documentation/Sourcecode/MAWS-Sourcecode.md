@@ -32,9 +32,10 @@ That being said, you will find the following types of comments in the MAWS sourc
 
 * `///` XML comments used by Visual Studio
 * `//` Additional information
-* `/*` Narrative comments `*/`
-* `/*` Narrative comments<br>
-  `*/`
+* `/*` Single-line narrative comments `*/`
+* `/*` Multiple-line<br>
+&nbsp;`*`&nbsp;&nbsp;&nbsp;narrative comments<br>
+&nbsp;`*/`
 
 # VARIABLES
 
