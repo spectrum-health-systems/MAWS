@@ -34,7 +34,7 @@ That being said, you will find the following types of comments in the MAWS sourc
 * `//` Additional information
 * `/*` Single-line narrative comments `*/`
 * `/*` Multiple-line<br>
-&nbsp;`*`&nbsp;&nbsp;&nbsp;narrative comments<br>
+&nbsp;`*`&nbsp;&nbsp;narrative comments<br>
 &nbsp;`*/`
 
 # VARIABLES
