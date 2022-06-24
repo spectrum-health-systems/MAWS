@@ -21,7 +21,7 @@
 
 ***
 
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  NAMESPACE: MAWS.Configuration
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  `NAMESPACE` MAWS.Configuration
 
 ***
 
