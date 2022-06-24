@@ -1,6 +1,6 @@
 <!-- b220624.102340 -->
 
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS.Configuration namespace**
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS.Configuration**
 
 ***
 
@@ -41,7 +41,7 @@ This class handles anything related to the current MAWS session variables.
 | ---- | ----------- |
 | [MawsSession.Build](#mawsconfigurationmawssessioncs) | Get MAWS session information |
 
-## `METHOD` MawsSession.Build
+## `METHOD` Build()
 > Get the MAWS session information.
 
 ### Details
@@ -53,40 +53,17 @@ This doesn't return anything (220621).
 # `CLASS` SettingsFile.cs
 This class handles anthing related to the configuration file.
 
-## `METHOD` MawsSession.Build
+## `METHOD` Build()
 > Get the MAWS session information.
 
 ### Details
-This doesn't return anything (220621).
-
-### Notes
-* No notes.
-
-
-
-
-
-***
-
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS**
-
-
-
-## MAWS.Configuration.MawsSession.cs
-> Get the MAWS session information.
-
-### MAWS.Configuration.MawsSession.Build()
-* This doesn't return anything (220621)
-
-## MAWS.Configuration.SettingsFile.cs
-
-### MAWS.Configuration.SettingsFile.Build()
 1. Return a dictionary with the following setting values:
     - `MawsMode`
     - `LogMode`
     - `MawsRootDir`
     - `FallbackAvatarUserName`
 
+### Notes
 * These settings are derived from the configuration file, but we need to confirm that making changes to the local config file override these.
 
 ***
