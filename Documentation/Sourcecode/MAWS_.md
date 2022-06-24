@@ -1,33 +1,27 @@
-<!-- b220624.102340 -->
+<!-- b220621.115657 -->
 
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS namespace**
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS**
 
 ***
 
-<br>
-
 <div align="center">
-
-  <img src="../../.github/Resources/Assets/Logos/maws-logo-web-service-512x256.png" alt="MAWS logo" width="256">
   <h1> 
-    SOURCODE DOCUMENTATION
+
+    MAWS SOURCODE DOCUMENTATION
   </h1>
 
-  [![REPOSITORY](https://img.shields.io/badge/REPOSITORY-550055?style=for-the-badge)](https://github.com/spectrum-health-systems/MAWSC)&nbsp;&nbsp;&nbsp;[![MANUAL](https://img.shields.io/badge/MANUAL-550055?style=for-the-badge)](../Manual/MAWSC-Manual.md)&nbsp;&nbsp;&nbsp;[![SOURCECODE-DOCUMENTATION](https://img.shields.io/badge/SOURCECODE%20DOCUMENTATION-8e008e?style=for-the-badge)](MAWSC-Sourcecode.md)
+  <h2> 
+
+    MAWS NAMESPACE
+  </h2>
 
 </div>
 
-<br>
-
-# **MAWS** NAMESPACE
-The MAWS namespace is the entry point for MAWS. When you make a MAWS request via a ScriptLink event, this is where that request ends up.
-
-As it is mostly a "clearing house" for MAWS Requests, there is only one class (`MAWS.asmx.cs)`) and two methods (`GetVersion()`,  `RunScript()`), and those methods are fairly generic - all other functionality/logic is handled by external namespaces/classes/methods/files. This means that things here rarely change, so ScriptLink events have a known, stable target.
-
-It's important to note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
-
-## Classes
-[MAWS.asmx.cs](mawsasmxcs)
+# MAWS
+* Entry point for MAWS. 
+* When you make a MAWS request via a ScriptLink event, this is where that request ends up.
+* Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
+* In order to keep this class short, most requests are processed by outside methods/classes.
 
 ## MAWS.asmx.cs
 
