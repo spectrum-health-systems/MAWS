@@ -55,6 +55,7 @@ This method is pretty straight forward, and doesn't change.
 
 #### Notes
 * This method is required by myAvatar.
+* There is a commented line is at the start of the method that enables troubleshooting logs. This line should remain commented in production.
 * You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
 
 ***
