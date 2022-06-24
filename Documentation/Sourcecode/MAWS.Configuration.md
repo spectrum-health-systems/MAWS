@@ -22,12 +22,11 @@
 # THE **MAWS.Configuration** NAMESPACE
 The MAWS.Configuration namespace handles any logic related to configuration files and settings.
 
-This namespace contains the following classes:
+There will be more information about how configuration files work here soon.
+
+#### This namespace contains the following classes
 * [MAWS.Configuration.MawsSession.cs](#mawsconfigurationmawssessioncs)
 * [MAWS.Configuration.SettingsFile.cs](#mawsconfigurationsettingsfilecs)
-
-### The MAWS configuration file
-There will be more information about how configuration files work here soon.
 
 # MAWS.Configuration.MawsSession.cs
 This class handles anything related to the current MAWS session variables.
