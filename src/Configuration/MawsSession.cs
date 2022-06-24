@@ -8,8 +8,8 @@
 
 // MAWS.Configuration.MawsSession.cs
 // Logic for current MAWS session variables.
-// b220624.112912
-// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Configuration.md
+// b220624.115605
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
@@ -37,3 +37,4 @@ namespace MAWS.Configuration
 }
 
 // TODO Rename Build(), since it's too generic.
+// Also, it is "settings" or "configuration"?

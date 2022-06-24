@@ -18,7 +18,7 @@
 </div>
 
 # `NAMESPACE` MAWS.Configuration
-The **MAWS.Configuration** namespace handles any logic related to configuration files and settings.
+Logic related to configuration files and settings.
 
 There will be more information about how configuration files work here soon.
 
@@ -29,7 +29,9 @@ Logic for current MAWS session variables.
 Get MAWS session information.
 
 #### Details
-No details.
+1. Get a nice name for the assembly, and create a trace log.
+2. Create a dictionary with the contents of the configuration file
+3. Create a dictionary that contains the MAWS Request
 
 #### Notes
 * This doesn't return anything (220621).
@@ -48,7 +50,7 @@ This is the method description
     - `FallbackAvatarUserName`
 
 #### Notes
-* These settings are derived from the configuration file, but we need to confirm that making changes to the local config file override these.
+None.
 
 ***
 

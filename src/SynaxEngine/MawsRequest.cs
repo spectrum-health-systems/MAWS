@@ -1,15 +1,16 @@
-﻿// PROJECT: MAWS (https://github.com/spectrum-health-systems/MAWS)
-//    FILE: MAWS.SyntaxEngine.MawsRequest.cs
-// UPDATED: 5-09-2022
-// LICENSE: Apache v2 (https://apache.org/licenses/LICENSE-2.0)
-//          Copyright 2021 A Pretty Cool Program
+﻿// ============================================================================================
+// MAWS: MyAvatar Web Service
+// A custom web service for Netsmart's myAvatar™ EHR.
+// https://github.com/spectrum-health-systems/MAWSC)
+// Apache v2 (https://apache.org/licenses/LICENSE-2.0)
+// Copyright 2021-2022 A Pretty Cool Program
+// ============================================================================================
 
-// v0.60.0.0-b220509.093205
+// MAWS.SyntaxEngine.MawsRequest.cs
+// Logic for MAWS Requests
+// b220624.115605
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
-/* =============================================================================
- * About this class
- * =============================================================================
- */
 
 using System.Collections.Generic;
 using System.Reflection;
