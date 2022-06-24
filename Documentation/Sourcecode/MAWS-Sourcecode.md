@@ -23,19 +23,18 @@
 This is detailed documentation about the MAWS sourcecode, which includes:
 
 * Information about sourcecode [comments](#sourcecode-comments) and [variables](#variables).
-
 * Detailed information about each [namespace](#namespaces), and the classes and methods within.
 
 # SOURCECODE COMMENTS
-Attempts have been made to make this sourcecode as human-readable as possible, but since other organizations may use MAWSC, it is heavily comment everything as well - sometimes even in places where it is very clear as to what the code does.
- 
-You will find three types of comments in this sourcecode:
- 
+Attempts have been made to make this sourcecode as human-readable as possible, so I'm keeping the comments to a minimum. The document you are currently reading is the primary source of information about how everything works.
+
+That being said, you will find the following types of comments in the MAWS sourcecode:
+
 * `///` XML comments used by Visual Studio
 * `//` Additional information
 * `/*` Narrative comments `*/`
-
- Please do not remove any of the sourcecode comments!
+* `/*` Narrative comments<br>
+  `*/`
 
 # VARIABLES
 
