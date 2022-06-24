@@ -39,11 +39,12 @@ This method is pretty straight forward, and doesn't change.
 #### Notes
 * This method is required by myAvatar.
 * The version number doesn't change during development. For example, while developing v2.0.x.x, this method will aways return `VERSION 2.0`.
-* You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
+* You can find more information about the `GetVersion()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
 
 ### MAWSC.RunScript()
 > Executes a MAWS Request.
 
+#### Details
 1. Sets up a few nice looking names for values we'll be using.
 2. Creates a new OptionObject 2015 object that we will use to do the necessary work, and intializes it.
 3. Determines the MawsMode to be used, and depending on the mode:
@@ -52,8 +53,9 @@ This method is pretty straight forward, and doesn't change.
     - `passthrough` Use MAWS, but don't make changes, only write logs. This is like the "disabled" setting, since no modifications to the OptionObject are make, and also like the "enabled" setting, since MAWS will actually go through the motions and write logs normally.
 4. Returns an OptionObject2015 (which may or may not be modified) object to myAvatar.
 
+#### Notes
 * This method is required by myAvatar.
-* You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
+* You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
 
 ***
 
