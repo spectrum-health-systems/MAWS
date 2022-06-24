@@ -38,3 +38,6 @@ namespace MAWS.Configuration
         }
     }
 }
+
+
+// TODO rename this. It's configuration or settings.
