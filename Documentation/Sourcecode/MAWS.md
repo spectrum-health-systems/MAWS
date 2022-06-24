@@ -24,10 +24,9 @@ The MAWS namespace is the entry point for MAWS. When you make a MAWS request via
 
 As it is mostly a "clearing house" for MAWS Requests, there is only one class (`MAWS.asmx.cs)`) and two methods (`GetVersion()`,  `RunScript()`), and those methods are fairly generic - all other functionality/logic is handled by external namespaces/classes/methods/files. This means that things here rarely change, so ScriptLink events have a known, stable target.
 
-It's important to note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
+### Important!
 
-## Classes
-[MAWS.asmx.cs](mawsasmxcs)
+It's important to note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 
 ## MAWS.asmx.cs
 
