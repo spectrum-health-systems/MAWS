@@ -73,18 +73,18 @@ https://github.com/myAvatar-Development-Community/document-creating-a-custom-web
 * This method is required by myAvatar.
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
 
-# MAWS.Configuration
+## MAWS.Configuration
 * Does things with configuration settings and files.
 
-## MAWS.Configuration.MawsSession.cs
+### MAWS.Configuration.MawsSession.cs
 > Get the MAWS session information.
 
-### MAWS.Configuration.MawsSession.Build()
+#### MAWS.Configuration.MawsSession.Build()
 * This doesn't return anything (220621)
 
-## MAWS.Configuration.SettingsFile.cs
+### MAWS.Configuration.SettingsFile.cs
 
-### MAWS.Configuration.SettingsFile.Build()
+#### MAWS.Configuration.SettingsFile.Build()
 1. Return a dictionary with the following setting values:
     - `MawsMode`
     - `LogMode`
