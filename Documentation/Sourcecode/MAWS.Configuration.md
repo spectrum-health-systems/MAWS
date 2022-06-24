@@ -19,6 +19,12 @@
 
 <br>
 
+***
+
+[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  NAMESPACE: MAWS.Configuration
+
+***
+
 # `NAMESPACE` MAWS.Configuration
 The **MAWS.Configuration** namespace handles any logic related to configuration files and settings.
 
