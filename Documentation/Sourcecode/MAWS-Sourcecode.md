@@ -42,13 +42,6 @@ That being said, you will find the following types of comments in the MAWS sourc
 
 ```
 
-* `///` XML comments used by Visual Studio
-* `//` Additional information
-* `/*` Single-line narrative comments `*/`
-* `/*` Multiple-line<br>
-&nbsp;`*`&nbsp;&nbsp;narrative comments<br>
-&nbsp;`*/`
-
 # VARIABLES
 
 ## Standard casing/whitespace
@@ -68,17 +61,18 @@ It may be helpful to review the [Creating a Custom Web Service](
 https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service) documentation.
 
 Also, there is quite a bit of myAvatar-related information/documentation at the [myAvatar Development Community](
-https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service)
+https://github.com/myAvatar-Development-Community/).
 
 # NAMESPACES
 [MAWS](#maws)<br>
 [MAWS.Configuration](#mawsconfiguration)
 
 ## MAWS
-* Entry point for MAWS. 
-* When you make a MAWS request via a ScriptLink event, this is where that request ends up.
-* Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
-* In order to keep this class short, most requests are processed by outside methods/classes.
+The MAWS namespace is the entry point for MAWS. When you make a MAWS request via a ScriptLink event, this is where that request ends up.
+
+Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
+
+In order to keep this class short, most requests are processed by outside methods/classes.
 
 ### MAWS.asmx.cs
 
