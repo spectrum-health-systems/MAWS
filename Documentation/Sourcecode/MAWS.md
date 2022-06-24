@@ -33,8 +33,11 @@ Please note that both the `GetVersion()` and `RunScript()` methods are required 
 ### MAWSC.GetVersion()
 > Returns the version of MAWS.
 
+#### Details
+This method is pretty straight forward, and doesn't change.
+
 #### Notes
-This method is required by myAvatar.
+* This method is required by myAvatar.
 * The version number doesn't change during development. For example, while developing v2.0.x.x, this method will aways return "VERSION 2.0".
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
 
