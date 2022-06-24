@@ -8,8 +8,8 @@
 
 // MAWS.Logging.MawsEvent.cs
 // MAWS event logging
-// b220621.131338
-// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Logging.md
+// b220624.115605
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
 using NTST.ScriptLinkService.Objects;
 using System;

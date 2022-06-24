@@ -8,8 +8,8 @@
 
 // MAWS.Data.Validate.cs
 // Logic dealing with MAWS data.
-// b220621.131338
-// https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.Data.md
+// b220624.115605
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
 namespace MAWS
 {

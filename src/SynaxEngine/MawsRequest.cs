@@ -7,7 +7,7 @@
 // ============================================================================================
 
 // MAWS.SyntaxEngine.MawsRequest.cs
-// Logic for MAWS Requests
+// Logic for MAWS Requests.
 // b220624.115605
 // https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
@@ -19,6 +19,10 @@ namespace MAWS.SyntaxEngine
 {
     public class MawsRequest
     {
+        /// <summary></summary>
+        /// <param name="avatarUserName"></param>
+        /// <param name="mawsRequest"></param>
+        /// <returns></returns>
         public static Dictionary<string, string> GetDic(string avatarUserName, string mawsRequest)
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
