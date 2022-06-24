@@ -11,7 +11,7 @@
   </h1>
 </div>
 
-# MAWS namespace
+# MAWS
 * Entry point for MAWS. 
 * When you make a MAWS request via a ScriptLink event, this is where that request ends up.
 * Both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.

@@ -12,17 +12,17 @@
 </div>
 
 # MAWS.Configuration
-* ss
+* Does things with configuration settings and files.
 
-# MAWS.Configuration.MawsSession.cs
-* ss
+## MAWS.Configuration.MawsSession.cs
+> Get the MAWS session information.
 
-## MAWS.Configuration.MawsSession.Build()
+### MAWS.Configuration.MawsSession.Build()
 * This doesn't return anything (220621)
 
 ## MAWS.Configuration.SettingsFile.cs
 
-## MAWS.Configuration.SettingsFile.Build()
+### MAWS.Configuration.SettingsFile.Build()
 1. Return a dictionary with the following setting values:
     - `MawsMode`
     - `LogMode`
