@@ -38,7 +38,7 @@ There will be more information about how configuration files work here soon.
 | [MawsSession.cs](#mawsconfigurationmawssessioncs) | Logic for current MAWS session variables |
 | [SettingsFile.cs](#mawsconfigurationsettingsfilecs) | Logic for MAWS configuration files |
 
-# `CLASS` MawsSession.cs
+## `CLASS` MawsSession.cs
 This class handles anything related to the current MAWS session variables.
 
 ### Class methods
@@ -47,29 +47,29 @@ This class handles anything related to the current MAWS session variables.
 | ---- | ----------- |
 | [MawsSession.Build](#mawsconfigurationmawssessioncs) | Get MAWS session information |
 
-## `METHOD` Build()
+### `METHOD` Build()
 This method gets the setting for a specific MAWS session.
 
-### Details
+#### Details
 No details.
 
-### Notes
+#### Notes
 * This doesn't return anything (220621).
 
-# `CLASS` SettingsFile.cs
+## `CLASS` SettingsFile.cs
 This class handles anthing related to the configuration file.
 
-## `METHOD` Build()
+### `METHOD` Build()
 > Get the MAWS session information.
 
-### Details
+#### Details
 1. Return a dictionary with the following setting values:
     - `MawsMode`
     - `LogMode`
     - `MawsRootDir`
     - `FallbackAvatarUserName`
 
-### Notes
+#### Notes
 * These settings are derived from the configuration file, but we need to confirm that making changes to the local config file override these.
 
 ***
