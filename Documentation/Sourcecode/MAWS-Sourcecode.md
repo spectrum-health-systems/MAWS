@@ -10,7 +10,6 @@
 
   <img src="../../.github/Resources/Assets/Logos/maws-logo-web-service-512x256.png" alt="MAWS logo" width="256">
   <h1> 
-
     SOURCODE DOCUMENTATION
   </h1>
 
@@ -37,11 +36,6 @@ You will find three types of comments in this sourcecode:
 
  Please do not remove any of the sourcecode comments!
 
-# NAMESPACES
-
-[MAWS](#maws)<br>
-[MAWS.Configuration](#mawsconfiguration)
-
 # ADDITIONAL READING
 
 It may be helpful to review the [Creating a Custom Web Service](
@@ -49,6 +43,11 @@ https://github.com/myAvatar-Development-Community/document-creating-a-custom-web
 
 Also, there is quite a bit of myAvatar-related information/documentation at the [myAvatar Development Community](
 https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service)
+
+# NAMESPACES
+
+[MAWS](#maws)<br>
+[MAWS.Configuration](#mawsconfiguration)
 
 # MAWS
 * Entry point for MAWS. 
