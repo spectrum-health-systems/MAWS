@@ -11,9 +11,12 @@
 </h1>
 
 
+MAWS.RunScript()
+
+//LogEvent.Troubleshoot("maws-initialization"); // TODO Should prob make this C:\MAWS\Devlogs\"
 
 
-
+* Make "sent" variables static?
 
 
 

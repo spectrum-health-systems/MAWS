@@ -22,7 +22,7 @@
 # ABOUT
 This is detailed documentation about the MAWS sourcecode.
 
-## Comments
+# Sourcecode comments
 Attempts have been made to make this sourcecode as human-readable as possible, but since other organizations may use MAWSC, it is heavily comment everything as well - sometimes even in places where it is very clear as to what the code does.
  
 You will find three types of comments in this sourcecode:
@@ -32,6 +32,21 @@ You will find three types of comments in this sourcecode:
 * `/*` Narrative comments `*/`
 
  Please do not remove any of the sourcecode comments!
+
+# Variables
+
+## Forced lowercase without leading/trailing whitespace
+Most logic in MAWS is checked against lowercase values without any leading/trailing whitespace, so (in general) MAWS will reduce a variable to its trimmed, lowercase value. This is done as soon as possible, usually when a variable is declared.
+
+For example, one of the first things MAWS does when it executes is to get the `mawsMode` from the settings file, and that value *should* be lowercase. But since it would be a bad idea to assume that - since anything other than a lowercase value without leading/trailing whitespace will cause errors, we will force `.Trim().ToLower()`.
+
+## Variable prefixes
+
+### "Sent" variables
+If a variable name starts with "sent" (e.g., `sentOptObj`), the data it contains is the original data sent from myAvatar. These values should not be modified at any point.
+
+For example, the `sentMawsRequest` will always be the value sent via a ScriptLink event, and therefore you can always determine what the original MAWS request was.
+
 
 # ADDITIONAL READING
 It may be helpful to review the [Creating a Custom Web Service](
@@ -71,7 +86,10 @@ https://github.com/myAvatar-Development-Community/document-creating-a-custom-web
 4. Returns an OptionObject2015 (which may or may not be modified) object to myAvatar.
 
 * This method is required by myAvatar.
+* There is a commented line is at the start of the method that enables troubleshooting logs. This line shoudl remain commented in production.
 * You can find more information about this method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
+
+****
 
 ## MAWS.Configuration
 * Does things with configuration settings and files.

@@ -20,9 +20,9 @@ namespace MAWS.Configuration
     public class MawsSession
     {
         /// <summary>Get the MAWS session information.</summary>
-        /// <param name="sentOptObj"></param>
-        /// <param name="sentMawsRequest"></param>
-        /// <returns></returns>
+        /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param>
+        /// <param name="sentMawsRequest">The MAWS request to be executed.</param>
+        /// <returns>MAWS session configuration settings.</returns>
         public static Dictionary<string, string> Build(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();

@@ -4,11 +4,11 @@
 // https://github.com/spectrum-health-systems/MAWSC)
 // Apache v2 (https://apache.org/licenses/LICENSE-2.0)
 // Copyright 2021-2022 A Pretty Cool Program
-// ================================================================= [ 220623.082120-devbuild ]
+// ================================================================= [ 220624.091752-devbuild ]
 
 // MAWS.asmx.cs
 // Entry point for MAWS.
-// bb220623.082129
+// b220624.091757
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.asmx.cs.md
 
 /* ABOUT MAWS
@@ -57,14 +57,13 @@ namespace MAWS
         }
 
         /// <summary>Exectutes a MAWS Request.</summary>
-        /// <param name="sentOptObj"> An OptionObject2015 sent from myAvatar.</param>
+        /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param>
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
         /// <returns>OptionObject2015 with updated data.</returns>
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-            /* Enable this line to write a troubleshooting log to "C:\MAWS\Staging\Development\Devlogs\"
-             */
+            // Uncomment the following line to enable troubleshooting logs.
             //LogEvent.Troubleshoot("maws-initialization"); // TODO Should prob make this C:\MAWS\Devlogs\"
 
             // WTF is this?
