@@ -32,7 +32,7 @@ There will be more information about how configuration files work here soon.
 | [MawsSession.cs](#mawsconfigurationmawssessioncs) | Logic for current MAWS session variables |
 | [SettingsFile.cs](#mawsconfigurationsettingsfilecs) | Logic for MAWS configuration files |
 
-# `CLASS` Configuration.MawsSession
+# `CLASS` MawsSession.cs
 This class handles anything related to the current MAWS session variables.
 
 ### Class methods
@@ -50,7 +50,7 @@ This doesn't return anything (220621).
 ### Notes
 * No notes.
 
-# `CLASS` Configuration.SettingsFile
+# `CLASS` SettingsFile.cs
 This class handles anthing related to the configuration file.
 
 ## `METHOD` MawsSession.Build
