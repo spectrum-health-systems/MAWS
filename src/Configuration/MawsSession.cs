@@ -8,7 +8,7 @@
 
 // MAWS.Configuration.MawsSession.cs
 // Logic for current MAWS session variables.
-// b220624.115605
+// b220627.083726
 // https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
 using NTST.ScriptLinkService.Objects;
@@ -25,7 +25,7 @@ namespace MAWS.Configuration
         /// <returns>MAWS session configuration settings.</returns>
         public static Dictionary<string, string> Build(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-
+            // DO THIS
 
             var dateStamp = DateTime.Now.ToString("yyMMdd");
             var timeStamp = DateTime.Now.ToString($"HHmmss.fffffff");
