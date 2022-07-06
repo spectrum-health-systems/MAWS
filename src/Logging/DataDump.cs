@@ -33,7 +33,9 @@ namespace MAWS.Logging
 
             Directory.CreateDirectory(dataDumpDirectory);
 
-            File.WriteAllText($@"{dataDumpDirectory}/{DateTime.Now.ToString($"yyMMdd-HHmmss")}.datadump", logMsg);
+            File.WriteAllText($@"{dataDumpDirectory}/{DateTime.Now:yyMMdd-HHmmss}.datadump", logMsg);
+
+            //TODO Exit gracefully.
         }
     }
 }
