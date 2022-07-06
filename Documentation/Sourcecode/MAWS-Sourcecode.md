@@ -18,8 +18,6 @@ This is detailed documentation about the MAWS sourcecode.
 
 Instead of having a ton of comments in the sourcecode, details about the code will be here.
 
-<br>
-
 # Headers
 
 Every class has a standard `**==[ PROJECT ]==**` header thta looks like this:
