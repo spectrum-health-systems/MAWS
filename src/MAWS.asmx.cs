@@ -1,39 +1,43 @@
-﻿// ============================================================================== [ v1.99.0.0 ]
+﻿// =========================================[ PROJECT ]=========================================
 // MAWS: MyAvatar Web Service
 // A custom web service for Netsmart's myAvatar™ EHR.
 // https://github.com/spectrum-health-systems/MAWSC)
 // Apache v2 (https://apache.org/licenses/LICENSE-2.0)
 // Copyright 2021-2022 A Pretty Cool Program
-// ================================================================= [ 220627.083542-devbuild ]
+// =============================================================================================
 
+// -----------------------------------------[ CLASS ]-------------------------------------------
 // MAWS.asmx.cs
 // Entry point for MAWS.
-// b220624.122823
+// b220706.075759
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.asmx.cs.md
+// ---------------------------------------------------------------------------------------------
 
-/* ABOUT MAWS
- * --------------------------------------------------------------------------------------------
- * The MyAvatool Web Service (MAWS) is a custom web service which includes various tools and
- * utilities for myAvatar™ that aren't included in the official release, and provides a solid
- * foundation for building additional functionality quickly and efficiently.
- *
- * To learn more about MAWS, and how you can use it at your organization, read the MAWS Manual!
- * 
- *      https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Manual/MAWS-manual.md
- *
- * For detailed information about this sourcecode, please see:
- * 
- *      https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Sourcecode/MAWS-sourcecode.md
- *
- *
- * README: https://github.com/spectrum-health-systems/MAWS#readme
- * Changelog: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Changelog.md
- * Roadmap: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Roadmap.md
- * Known issues: https://github.com/spectrum-health-systems/MAWSC/blob/Documents/Known%20issues.md
- *
- * For more myAvatar™ related development, please visit the myAvatar™ Development Community:
- *  https://github.com/myAvatar-Development-Community
- */
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[ ABOUT MAWS ]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+// https://github.com/spectrum-health-systems/MAWS
+// Version 1.99.0.0
+// Build: 220706.075938+devbuild
+//
+// The MyAvatool Web Service (MAWS) is a custom web service which includes various tools and
+// utilities for myAvatar™ that aren't included in the official release, and provides a solid
+// foundation for building additional functionality quickly and efficiently.
+//
+// To learn more about MAWS, and how you can use it at your organization, read the MAWS Manual!
+//
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Manual/MAWS-manual.md
+//
+// For detailed information about this sourcecode, please see:
+//
+// https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Sourcecode/MAWS-sourcecode.md
+//
+//
+// README: https://github.com/spectrum-health-systems/MAWS#readme
+// Changelog: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Changelog.md
+// Roadmap: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Roadmap.md
+// Known issues: https://github.com/spectrum-health-systems/MAWSC/blob/Documents/Known%20issues.md
+//
+// For more myAvatar™ related development, please visit the myAvatar™ Development Community:
+// https://github.com/myAvatar-Development-Community
 
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
@@ -109,7 +113,7 @@ namespace MAWS
         // DEPRECIATED
         //
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ////private static void Troubleshooter(string logWhat)
         ////{
