@@ -22,15 +22,10 @@
 // utilities for myAvatar™ that aren't included in the official release, and provides a solid
 // foundation for building additional functionality quickly and efficiently.
 //
-// To learn more about MAWS, and how you can use it at your organization, read the MAWS Manual!
-//
-// https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Manual/MAWS-manual.md
-//
-// For detailed information about this sourcecode, please see:
-//
-// https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Sourcecode/MAWS-sourcecode.md
-//
-//
+// DOCUMENTATION
+// -------------
+// Manual: https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Manual/MAWS-manual.md
+// Sourcecode: https://github.com/spectrum-health-systems/MAWS/blob/main/Documents/Sourcecode/MAWS-sourcecode.md
 // README: https://github.com/spectrum-health-systems/MAWS#readme
 // Changelog: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Changelog.md
 // Roadmap: https://github.com/spectrum-health-systems/MAWSC/blob/main/Documents/Roadmap.md
@@ -38,6 +33,8 @@
 //
 // For more myAvatar™ related development, please visit the myAvatar™ Development Community:
 // https://github.com/myAvatar-Development-Community
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
 
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;

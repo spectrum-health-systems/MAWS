@@ -1,50 +1,68 @@
-<!-- b220624.102340 -->
-
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS namespace**
-
-***
+> [MAWS][1] &gt; [Sourcecode][2] &gt;  **MAWS namespace**
 
 <br>
-
+<br>
 <div align="center">
-
-  <img src="../../.github/Resources/Assets/Logos/maws-logo-web-service-512x256.png" alt="MAWS logo" width="256">
+  <img src="../../.github/Logos/maws-logo-web-service-512x256.png" alt="MAWSC logo" width="256">
   <h1> 
-    SOURCODE DOCUMENTATION
+    MAWS SOURCODE DOCUMENTATION
   </h1>
 
-  [![REPOSITORY](https://img.shields.io/badge/REPOSITORY-550055?style=for-the-badge)](https://github.com/spectrum-health-systems/MAWSC)&nbsp;&nbsp;&nbsp;[![MANUAL](https://img.shields.io/badge/MANUAL-550055?style=for-the-badge)](../Manual/MAWSC-Manual.md)&nbsp;&nbsp;&nbsp;[![SOURCECODE-DOCUMENTATION](https://img.shields.io/badge/SOURCECODE%20DOCUMENTATION-8e008e?style=for-the-badge)](MAWSC-Sourcecode.md)
+  [![REPOSITORY](https://img.shields.io/badge/REPOSITORY-550055?style=for-the-badge)][1]&nbsp;&nbsp;&nbsp;[![MANUAL](https://img.shields.io/badge/MANUAL-550055?style=for-the-badge)][3]&nbsp;&nbsp;&nbsp;[![SOURCECODE-DOCUMENTATION](https://img.shields.io/badge/SOURCECODE%20DOCUMENTATION-8e008e?style=for-the-badge)][2]
 
 </div>
 
-<br>
+<div align="center">
 
-# `NAMESPACE` MAWS
-The MAWS namespace is the entry point for MAWS. When you make a MAWS request via a ScriptLink event, this is where that request ends up.
+# **`NAMESPACE`** MAWS
 
-As it is mostly a "clearing house" for MAWS Requests, there is only one class (`MAWS.asmx.cs`) and two methods ("`GetVersion()`", "`RunScript()`"), and those methods are fairly generic - all other functionality and logic is handled by external code. This means that things here rarely change, so ScriptLink events have a known, stable target.
+</div>
 
-#### Important!
+# About this namespace
+
+The MAWS namespace is the entry point for MAWS. When you make a *MAWS Request* via a *ScriptLink event*, this is where that request ends up.
+
+As it is mostly a "clearing house" for MAWS Requests, this namespace should only contain the required classes/methods that MAWS needs to function. In addition, it is designed to be fairly generic - most of the heavy-lifting is done by external namespaces/classes/methods. This way the required functionality rarely changes, and ScriptLink will have a known, stable target.
+
+### Important!
 Please note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
 
-## `CLASS` MAWS.asmx.cs
-This is the only class in the MAWS namespace.
+# Classes
 
-### `METHOD` GetVersion()
-> Returns the version of MAWS.
+This namespace has a single class that contains a two methods that are required by myAvatar.
 
-#### Details
-This method is pretty straight forward, and doesn't change.
+<details>
+<summary>
+  <b>MAWSC.asmx.cs</b><br>
+  <i>Methods required by myAvatar</i>
+</summary>
+
+This class has two methods that are required by myAvatar. Most of the heavy lifting is done by other namespaces/classes/methods.
+
+***
+
+### `GetVersion()`
+
+Returns the current version of MAWS.
+
+#### Operation
+
+Uh, not much to say here. This method is pretty simple.
 
 #### Notes
+
 * This method is required by myAvatar.
 * The version number doesn't change during development. For example, while developing v2.0.x.x, this method will aways return `VERSION 2.0`.
 * You can find more information about the `GetVersion()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-getversion-method).
 
-### `METHOD` RunScript()
-> Executes a MAWS Request.
+***
 
-#### Details
+### `RunScript()`
+
+Executes a MAWS Request.
+
+#### Operation
+
 1. Sets up a few nice looking names for values we'll be using.
 2. Creates a new OptionObject 2015 object that we will use to do the necessary work, and intializes it.
 3. Determines the MawsMode to be used, and depending on the mode:
@@ -54,10 +72,25 @@ This method is pretty straight forward, and doesn't change.
 4. Returns an OptionObject2015 (which may or may not be modified) object to myAvatar.
 
 #### Notes
+
 * This method is required by myAvatar.
 * There is a commented line is at the start of the method that enables troubleshooting logs. This line should remain commented in production.
 * You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
 
+</details>
+
+<br>
+
 ***
 
-[MAWS](https://github.com/spectrum-health-systems/MAWS) &gt; [Sourcecode](../Sourcecode/MAWS-Sourcecode.md) &gt;  **MAWS**
+> [MAWS][1] &gt; [Sourcecode][2] &gt;  **MAWSC namespace**
+
+[1]: https://github.com/spectrum-health-systems/MAWSC
+[2]: ../Sourcecode/MAWSC-Sourcecode.md
+[3]: ../Manual/MAWSC-Manual.md
+
+<div align="center">
+  <sub>
+    Last updated July 5th, 2022
+  </sub>
+<br>
