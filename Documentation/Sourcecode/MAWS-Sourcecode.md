@@ -92,7 +92,7 @@ MAWS has robust logging functionality built-in, which you can read more about [h
 
 You can force MAWS to create a data dump file by putting the following line of code anywhere:
 ```
-LogEvent.DataDump();
+Logging.DataDump.WriteDump();
 ```
 This will create a data dump logfile in "C:\MAWS\data-dump\", and then exit MAWS gracefully.
 

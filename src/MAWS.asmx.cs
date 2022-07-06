@@ -35,6 +35,7 @@
 // https://github.com/myAvatar-Development-Community
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
+using MAWS.Logging;
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
 using System.Reflection;
@@ -52,22 +53,15 @@ namespace MAWS
         [WebMethod]
         public string GetVersion()
         {
-            LogEvent.DataDump();
             return "VERSION 2.0";
         }
-
         /// <summary>Executes a MAWS Request.</summary>
         /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
-        /// <returns>OptionObject2015 with updated data.</returns>
+        /// <returns>Updated OptionObject2015.</returns>
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-            // ! Uncomment the following line to enable troubleshooting logs - DO NOT USE IN PRODUCTION.
-            //LogEvent.DataDump("maws-initialization");
-            // TODO Should prob make this C:\AppData\Devlogs\"
-            // TODO Maybe gracefully exit after logging?
-
             Dictionary<string, string> mawsSession = Configuration.MawsSession.BuildSessionSettings(sentOptObj, sentMawsRequest);
 
             var assemblyName   = Assembly.GetExecutingAssembly().GetName().Name.ToLower();

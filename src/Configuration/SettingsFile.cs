@@ -11,6 +11,7 @@
 // b220624.115605
 // https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 
+using MAWS.Logging;
 using System.Collections.Generic;
 using System.Reflection;
 

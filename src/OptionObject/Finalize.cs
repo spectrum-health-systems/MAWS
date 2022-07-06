@@ -11,8 +11,9 @@
  * =============================================================================
  */
 
-using System.Reflection;
+using MAWS.Logging;
 using NTST.ScriptLinkService.Objects;
+using System.Reflection;
 
 namespace MAWS
 {

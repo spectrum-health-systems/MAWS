@@ -14,6 +14,7 @@
 // ---------------------------------------------------------------------------------------------
 
 
+using MAWS.Logging;
 using NTST.ScriptLinkService.Objects;
 using System;
 using System.Collections.Generic;

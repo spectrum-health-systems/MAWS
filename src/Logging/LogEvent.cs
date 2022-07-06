@@ -14,30 +14,15 @@
 // -----------------------------------------[ CLASS ]-------------------------------------------
 
 using NTST.ScriptLinkService.Objects;
-using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace MAWS
+namespace MAWS.Logging
 {
     public class LogEvent
     {
         /// <summary>Create an information dump logfile.</summary>
-        public static void DataDump()
-        {
-            // TODO Move the logMsg generation to a seperate class.
-            var logMsg = $"Settings.settings values:{Environment.NewLine}" +
-                         $"    MAWS mode: {Properties.Settings.Default.MawsMode}{Environment.NewLine}" +
-                         $"     Log mode: {Properties.Settings.Default.LogMode}{Environment.NewLine}" +
-                         $"    MAWS root: {Properties.Settings.Default.MawsRootDir}{Environment.NewLine}" +
-                         $"Fallback name: {Properties.Settings.Default.FallbackAvatarUserName}";
 
-            var dataDumpDirectory = $@"C:/MAWS/Datadump";
-
-            Directory.CreateDirectory(dataDumpDirectory);
-
-            File.WriteAllText($@"{dataDumpDirectory}/{DateTime.Now.ToString($"yyMMdd-HHmmss")}.datadump", logMsg);
-        }
 
         /// <summary>Create a basic TRACE log.</summary>
         public static void Trace(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",

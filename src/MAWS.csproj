@@ -74,6 +74,7 @@
     <Compile Include="Configuration\MawsSession.cs" />
     <Compile Include="Configuration\SettingsFile.cs" />
     <Compile Include="Data\Validate.cs" />
+    <Compile Include="Logging\DataDump.cs" />
     <Compile Include="OptionObject\Finalize.cs" />
     <Compile Include="SynaxEngine\MawsRequest.cs" />
     <Compile Include="Utilities\Build.cs" />
