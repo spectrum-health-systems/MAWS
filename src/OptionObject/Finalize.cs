@@ -22,10 +22,10 @@ namespace MAWS
         {
             var assemblyName   = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
             var avatarUserName = sentOptObj.OptionUserId;
-            MawsEvent.Trace(assemblyName, avatarUserName);
+            LogEvent.Trace(assemblyName, avatarUserName);
 
             var sentOptObjLogMessage = "Final sentOptObj:";
-            MawsEvent.OptObj(assemblyName, avatarUserName, sentOptObj, sentOptObjLogMessage);
+            LogEvent.OptObj(assemblyName, avatarUserName, sentOptObj, sentOptObjLogMessage);
 
             /* Minimum things that need to be set. Notice that ErrorCode and ErrorMesg come from workOptObj, and the
              * rest come from sentOptObj.
@@ -47,7 +47,7 @@ namespace MAWS
             };
 
             var returnOptObjLogMessage = "Final returnOptObj:";
-            MawsEvent.OptObj(assemblyName, avatarUserName, returnOptObj, returnOptObjLogMessage);
+            LogEvent.OptObj(assemblyName, avatarUserName, returnOptObj, returnOptObjLogMessage);
 
             return returnOptObj;
         }

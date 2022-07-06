@@ -1,15 +1,17 @@
-﻿// ============================================================================================
+﻿// =========================================[ PROJECT ]=========================================
 // MAWS: MyAvatar Web Service
 // A custom web service for Netsmart's myAvatar™ EHR.
 // https://github.com/spectrum-health-systems/MAWSC)
 // Apache v2 (https://apache.org/licenses/LICENSE-2.0)
 // Copyright 2021-2022 A Pretty Cool Program
-// ============================================================================================
+// =============================================================================================
 
-// MAWS.Logging.MawsEvent.cs
-// MAWS event logging
-// b220624.115605
+// -----------------------------------------[ CLASS ]-------------------------------------------
+// MAWS.Logging.LogEvent.cs
+// Logic for logging specific MAWS events.
+// b220706.095050
 // https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
+// -----------------------------------------[ CLASS ]-------------------------------------------
 
 using NTST.ScriptLinkService.Objects;
 using System;
@@ -18,33 +20,23 @@ using System.Runtime.CompilerServices;
 
 namespace MAWS
 {
-    public class MawsEvent
+    public class LogEvent
     {
-        public static void Startup()
+        /// <summary>Create an information dump logfile.</summary>
+        public static void DataDump()
         {
+            // TODO Move the logMsg generation to a seperate class.
+            var logMsg = $"Settings.settings values:{Environment.NewLine}" +
+                         $"    MAWS mode: {Properties.Settings.Default.MawsMode}{Environment.NewLine}" +
+                         $"     Log mode: {Properties.Settings.Default.LogMode}{Environment.NewLine}" +
+                         $"    MAWS root: {Properties.Settings.Default.MawsRootDir}{Environment.NewLine}" +
+                         $"Fallback name: {Properties.Settings.Default.FallbackAvatarUserName}";
 
-        }
+            var dataDumpDirectory = $@"C:/MAWS/Datadump";
 
-        /// <summary>Only used for debugging.</summary>
-        public static void Troubleshoot(string troubleshootTarget)
-        {
-            var logMessage = "";
+            Directory.CreateDirectory(dataDumpDirectory);
 
-            switch (troubleshootTarget)
-            {
-                case "maws-initialization":
-                    logMessage = $"Settings.settings values:{Environment.NewLine}" +
-                                 $"    MAWS mode: {Properties.Settings.Default.MawsMode}{Environment.NewLine}" +
-                                 $"     Log mode: {Properties.Settings.Default.LogMode}{Environment.NewLine}" +
-                                 $"    MAWS root: {Properties.Settings.Default.MawsRootDir}{Environment.NewLine}" +
-                                 $"Fallback name: {Properties.Settings.Default.FallbackAvatarUserName}";
-                    break;
-
-                default:
-                    break;
-            }
-
-            File.WriteAllText($@"C:\MAWS\Staging\Development\Devlogs\{troubleshootTarget}.troubleshoot", logMessage);
+            File.WriteAllText($@"{dataDumpDirectory}/{DateTime.Now.ToString($"yyMMdd-HHmmss")}.datadump", logMsg);
         }
 
         /// <summary>Create a basic TRACE log.</summary>

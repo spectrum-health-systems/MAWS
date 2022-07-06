@@ -26,7 +26,7 @@ namespace MAWS.SyntaxEngine
         public static Dictionary<string, string> GetDic(string avatarUserName, string mawsRequest)
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
-            MawsEvent.Trace(avatarUserName, assemblyName);
+            LogEvent.Trace(avatarUserName, assemblyName);
 
             var mawsRequestComponent = mawsRequest.Split('-');
 

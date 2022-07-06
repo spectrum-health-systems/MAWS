@@ -12,7 +12,7 @@
 </div>
 <br>
 
-# ABOUT THE MAWS SOURCECODE
+# About the MAWS sourcecode
 
 This is detailed documentation about the MAWS sourcecode.
 
@@ -84,13 +84,26 @@ For example, if a variable has a value of "`_AValue_`" (where the "`_`" characte
 
 <br>
 
-# NAMESPACES
+# Logging
+
+MAWS has robust logging functionality built-in, which you can read more about [here][].
+
+## Troubleshooting
+
+You can force MAWS to create a data dump file by putting the following line of code anywhere:
+```
+LogEvent.DataDump();
+```
+This will create a data dump logfile in "C:\MAWS\data-dump\", and then exit MAWS gracefully.
+
+# Namespaces
 
 Here is where you will find information about all of the MAWS namespaces, and their sourcecode.
 
 [MAWS][4]  
+[MAWS.Configuration][5]
 
-# ADDITIONAL READING
+# ADdditional reading
 
 It may be helpful to review the [Creating a Custom Web Service](
 https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service) documentation.
@@ -107,6 +120,7 @@ Also, there is quite a bit of myAvatar-related information/documentation at the 
 [2]: ../Sourcecode/MAWS-Sourcecode.md
 [3]: ../Manual/MAWS-Manual.md
 [4]: ../Sourcecode/MAWS.md
+[5]: ../Sourcecode/MAWS.Configuration.md
 
 <div align="center">
   <sub>

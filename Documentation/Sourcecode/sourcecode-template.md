@@ -1,4 +1,4 @@
-> [MAWS][1] &gt; [Sourcecode documentation][2] &gt;  **MAWS namespace**
+> [MAWS][1] &gt; [Sourcecode documentation][2] &gt; **MAWS namespace**
 
 <br>
 <br>
@@ -22,22 +22,13 @@
 
 The MAWS namespace is the entry point for MAWS. When you make a *MAWS Request* via a *ScriptLink event*, this is where that request ends up.
 
-As it is mostly a "clearing house" for MAWS Requests, this namespace should only contain the required classes/methods that MAWS needs to function. In addition, it is designed to be fairly generic - most of the heavy-lifting is done by external namespaces/classes/methods. This way the required functionality rarely changes, and ScriptLink will have a known, stable target.
-
-### Important!
-Please note that both the `GetVersion()` and `RunScript()` methods are required by myAvatar™, and MAWS (or any web service that myAvatar references) cannot function without them.
-
 # Classes
-
-This namespace has a single class that contains a two methods that are required by myAvatar.
 
 <details>
 <summary>
   <b>MAWSC.asmx.cs</b><br>
   <i>Methods required by myAvatar</i>
 </summary>
-
-This class has two methods that are required by myAvatar. Most of the heavy lifting is done by other namespaces/classes/methods.
 
 ***
 
@@ -91,7 +82,7 @@ Executes a MAWS Request.
 
 ***
 
-> [MAWS][1] &gt; [Sourcecode documentation][2] &gt;  **MAWS namespace**
+> [MAWS][1] &gt; [Sourcecode documentation][2] &gt; **MAWS namespace**
 
 [1]: https://github.com/spectrum-health-systems/MAWS
 [2]: ../Sourcecode/MAWS-Sourcecode.md

@@ -26,7 +26,7 @@ namespace MAWS.Configuration
             // TODO These are in Settings.settings, but we need to confirm that making changes to the local config file
             // override these.
             var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
-            MawsEvent.Trace(avatarUserName, assemblyName);
+            LogEvent.Trace(avatarUserName, assemblyName);
 
             return new Dictionary<string, string>()
             {

@@ -35,7 +35,6 @@
 // https://github.com/myAvatar-Development-Community
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
 using System.Reflection;
@@ -46,7 +45,6 @@ namespace MAWS
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-
     public class MAWS : System.Web.Services.WebService
     {
         /// <summary>Returns the version of MAWS.</summary>
@@ -54,44 +52,47 @@ namespace MAWS
         [WebMethod]
         public string GetVersion()
         {
+            LogEvent.DataDump();
             return "VERSION 2.0";
         }
 
-        /// <summary>Exectutes a MAWS Request.</summary>
-        /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param>
+        /// <summary>Executes a MAWS Request.</summary>
+        /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
         /// <returns>OptionObject2015 with updated data.</returns>
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-            // Uncomment the following line to enable troubleshooting logs.
-            //LogEvent.Troubleshoot("maws-initialization"); // TODO Should prob make this C:\MAWS\Devlogs\"
+            // ! Uncomment the following line to enable troubleshooting logs - DO NOT USE IN PRODUCTION.
+            //LogEvent.DataDump("maws-initialization");
+            // TODO Should prob make this C:\AppData\Devlogs\"
+            // TODO Maybe gracefully exit after logging?
 
-            Dictionary<string, string> mawsSession = Configuration.MawsSession.Build(sentOptObj, sentMawsRequest);
+            Dictionary<string, string> mawsSession = Configuration.MawsSession.BuildSessionSettings(sentOptObj, sentMawsRequest);
 
-            var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
+            var assemblyName   = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
             var avatarUserName = sentOptObj.OptionUserId;
-            MawsEvent.Trace(assemblyName, avatarUserName);
+            LogEvent.Trace(assemblyName, avatarUserName);
 
             var workOptObj = new OptionObject2015();
-            MawsEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
+            LogEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
 
             var mawsMode = Properties.Settings.Default.MawsMode.ToLower();
 
             switch (mawsMode)
             {
                 case "enabled":
-                    MawsEvent.Trace(assemblyName, avatarUserName);
+                    LogEvent.Trace(assemblyName, avatarUserName);
                     // Point to Roundhouse.cs
                     break;
 
                 case "disabled":
-                    MawsEvent.Trace(assemblyName, avatarUserName);
+                    LogEvent.Trace(assemblyName, avatarUserName);
                     // Don't do anything, just return the data from sentOptObj.
                     break;
 
                 case "passthrough":
-                    MawsEvent.Trace(assemblyName, avatarUserName);
+                    LogEvent.Trace(assemblyName, avatarUserName);
                     // Just log things, don't make any changes to the data.
                     break;
 
@@ -99,7 +100,7 @@ namespace MAWS
                     break;
             }
 
-            MawsEvent.Trace(assemblyName, avatarUserName);
+            LogEvent.Trace(assemblyName, avatarUserName);
 
             OptionObject2015 returnOptObj = global::MAWS.Finalize.FinalizeIt(sentOptObj, workOptObj);
 

@@ -77,7 +77,7 @@
     <Compile Include="OptionObject\Finalize.cs" />
     <Compile Include="SynaxEngine\MawsRequest.cs" />
     <Compile Include="Utilities\Build.cs" />
-    <Compile Include="Logging\MawsEvent.cs" />
+    <Compile Include="Logging\LogEvent.cs" />
     <Compile Include="Maintenance\FileSystem.cs" />
     <Compile Include="MAWS.asmx.cs">
       <DependentUpon>MAWS.asmx</DependentUpon>
@@ -91,6 +91,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\Logging\README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="AppData\version.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
