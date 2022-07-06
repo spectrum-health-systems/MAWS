@@ -92,9 +92,9 @@ Executes a MAWS Request.
 
 > [MAWS][1] &gt; [Sourcecode documentation][2] &gt;  **MAWS namespace**
 
-[1]: https://github.com/spectrum-health-systems/MAWSC
-[2]: ../Sourcecode/MAWSC-Sourcecode.md
-[3]: ../Manual/MAWSC-Manual.md
+[1]: https://github.com/spectrum-health-systems/MAWS
+[2]: ../Sourcecode/MAWS-Sourcecode.md
+[3]: ../Manual/MAWS-Manual.md
 [4]: ../Sourcecode/MAWS-Sourcecode.md#standard-casingtrimming-of-values
 
 <div align="center">
