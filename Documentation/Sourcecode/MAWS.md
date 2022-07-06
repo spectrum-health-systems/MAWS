@@ -1,4 +1,4 @@
-> [MAWS][1] &gt; [Sourcecode][2] &gt;  **MAWS namespace**
+> [MAWS][1] &gt; [Sourcecode documentation][2] &gt;  **MAWS namespace**
 
 <br>
 <br>
@@ -63,19 +63,26 @@ Executes a MAWS Request.
 
 #### Operation
 
-1. Sets up a few nice looking names for values we'll be using.
-2. Creates a new OptionObject 2015 object that we will use to do the necessary work, and intializes it.
-3. Determines the MawsMode to be used, and depending on the mode:
-    - `enabled` This is the default setting, which processes MAWS requests normally, returns a modified OptionObject2015 to myAvatar, and logs everything.
-    - `disabled` Skip all MAWS functionality. Essentially MAWS will recieve the sentOptObj, then skip directly to finalizing and returning the retOptObj, so no changes are made. This should be used when you don't want myAvatar to call MAWS, but you don't want to disable scripts on every form you use  anything, including writing logs (aside from basic, informational logs).
-    - `passthrough` Use MAWS, but don't make changes, only write logs. This is like the "disabled" setting, since no modifications to the OptionObject are make, and also like the "enabled" setting, since MAWS will actually go through the motions and write logs normally.
-4. Returns an OptionObject2015 (which may or may not be modified) object to myAvatar.
+1. Load configuration settings.
+2. Setup some nice looking values for some important things.
+3. Create and initialize a new OptionObject2015 object that we can work on.
+4. Get the MawsMode that will be used.
+5. Process the MAWS Request
+6. Return an OptionObject2015 object to myAvatar.
+
+
 
 #### Notes
 
 * This method is required by myAvatar.
 * There is a commented line is at the start of the method that enables troubleshooting logs. This line should remain commented in production.
 * You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
+* **(2)** You can read more about why we create these values in this way [here][4].
+* **(4)** The MawsMode can be one of the following:
+    - `enabled` This is the default setting, which processes MAWS requests normally, returns a modified OptionObject2015 to myAvatar, and logs everything.
+    - `disabled` Skip all MAWS functionality. Essentially MAWS will recieve the sentOptObj, then skip directly to finalizing and returning the retOptObj, so no changes are made. This should be used when you don't want myAvatar to call MAWS, but you don't want to disable scripts on every form you use  anything, including writing logs (aside from basic, informational logs).
+    - `passthrough` Use MAWS, but don't make changes, only write logs. This is like the "disabled" setting, since no modifications to the OptionObject are make, and also like the "enabled" setting, since MAWS will actually go through the motions and write logs normally.
+* **(6)** The returned OptionObject2015 may - or may not - be modified, depending on the MawsMode and/or the MAWS Request.
 
 </details>
 
@@ -83,14 +90,15 @@ Executes a MAWS Request.
 
 ***
 
-> [MAWS][1] &gt; [Sourcecode][2] &gt;  **MAWSC namespace**
+> [MAWS][1] &gt; [Sourcecode documentation][2] &gt;  **MAWS namespace**
 
 [1]: https://github.com/spectrum-health-systems/MAWSC
 [2]: ../Sourcecode/MAWSC-Sourcecode.md
 [3]: ../Manual/MAWSC-Manual.md
+[4]: ../Sourcecode/MAWS-Sourcecode.md#standard-casingtrimming-of-values
 
 <div align="center">
   <sub>
-    Last updated July 5th, 2022
+    Last updated July 6th, 2022
   </sub>
 <br>
