@@ -26,6 +26,35 @@ Logic for the MAWS logging functionality.
 
 <details>
 <summary>
+  <b>Breadcrumb.cs</b><br>
+  <i>Logic for creating breadcrumb/tracing logs.</i>
+</summary>
+
+***
+
+### `Trace()`
+
+Create an data dump logfile.
+
+#### Operation
+
+1. Create a data dump message.
+2. Verify the "C:/MAWS/Datadump/" directory exists.
+3. Write the data dump message to a local file.
+
+#### Notes
+
+* This method is only used for debugging, and should not be used in production.
+* You can use this functionality anywhere by placing the line `Logging.DataDump.WriteDump();` where you want the data dump to take place.
+* **\[2]** This is a failsafe to make sure that the "C:/MAWS/Datadump/" exists prior to writing to it.
+* **\[3]** The logfile is always written to "C:/MAWS/Datadump/"
+
+</details>
+
+***
+
+<details>
+<summary>
   <b>DataDump.cs</b><br>
   <i>Logic for creating data dumps for troubleshooting.</i>
 </summary>
@@ -46,7 +75,7 @@ Create an data dump logfile.
 
 * This method is only used for debugging, and should not be used in production.
 * You can use this functionality anywhere by placing the line `Logging.DataDump.WriteDump();` where you want the data dump to take place.
-* **\[2]** This is a failsafe to make sure that the "C:/MAWS/Logging/" exists prior to writing to it.
+* **\[2]** This is a failsafe to make sure that the "C:/MAWS/Datadump/" exists prior to writing to it.
 * **\[3]** The logfile is always written to "C:/MAWS/Datadump/"
 
 </details>

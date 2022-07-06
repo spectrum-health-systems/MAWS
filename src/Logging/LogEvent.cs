@@ -21,15 +21,12 @@ namespace MAWS.Logging
 {
     public class LogEvent
     {
-        /// <summary>Create an information dump logfile.</summary>
-
-
-        /// <summary>Create a basic TRACE log.</summary>
-        public static void Trace(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",
-                                 [CallerMemberName] string callerMemberName = "", [CallerLineNumber] int callerLine = 0)
-        {
-            ToFile("trace", assemblyName, avatarUserName, logMessage, callerFilePath, callerMemberName, callerLine);
-        }
+        ///// <summary>Create a basic TRACE log.</summary>
+        //public static void Trace(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",
+        //                         [CallerMemberName] string callerMemberName = "", [CallerLineNumber] int callerLine = 0)
+        //{
+        //    ToFile("trace", assemblyName, avatarUserName, logMessage, callerFilePath, callerMemberName, callerLine);
+        //}
 
         /// <summary>Create a basic DEBUG log.</summary>
         public static void Debug(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",

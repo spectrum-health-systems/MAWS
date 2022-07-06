@@ -96,8 +96,9 @@ Here is where you will find information about all of the MAWS namespaces, and th
 
 [MAWS][4]  
 [MAWS.Configuration][5]
+[MAWS.Logging][6]
 
-# ADdditional reading
+# Addditional reading
 
 It may be helpful to review the [Creating a Custom Web Service](
 https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service) documentation.
@@ -115,6 +116,7 @@ Also, there is quite a bit of myAvatar-related information/documentation at the 
 [3]: ../Manual/MAWS-Manual.md
 [4]: ../Sourcecode/MAWS.md
 [5]: ../Sourcecode/MAWS.Configuration.md
+[6]: ../Sourcecode/MAWS.Logging.md
 
 <div align="center">
   <sub>
