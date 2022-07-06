@@ -82,13 +82,7 @@ Most logic in MAWS is checked against lowercase values without any leading/trail
 
 For example, if a variable has a value of "`_AValue_`" (where the "`_`" character is whitespace), it will be converted to "`avalue`". This way if the user has the incorrect casing for a setting called "`EnableAllLogs`", MAWSC will still be able to apply logic because it checks against "`enablealllogs` (which isn't very user friendly).
 
-<br>
-
-# Logging
-
-MAWS has robust logging functionality built-in, which you can read more about [here][].
-
-## Troubleshooting
+# Troubleshooting
 
 You can force MAWS to create a data dump file by putting the following line of code anywhere:
 ```
