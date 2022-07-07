@@ -9,7 +9,7 @@
 // -----------------------------------------[ CLASS ]-------------------------------------------
 // MAWS.Logging.LogEvent.cs
 // Logic for logging specific MAWS events.
-// b220706.095050
+// b220706.120000
 // https://github.com/spectrum-health-systems/MAWS/blob/main/Documentation/Sourcecode/MAWS-Sourcecode.md
 // -----------------------------------------[ CLASS ]-------------------------------------------
 
@@ -21,21 +21,21 @@ namespace MAWS.Logging
 {
     public class LogEvent
     {
-        ///// <summary>Create a basic TRACE log.</summary>
-        //public static void Trace(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",
-        //                         [CallerMemberName] string callerMemberName = "", [CallerLineNumber] int callerLine = 0)
-        //{
-        //    ToFile("trace", assemblyName, avatarUserName, logMessage, callerFilePath, callerMemberName, callerLine);
-        //}
+        /// <summary>Create a basic tracing log.</summary>
+        public static void Trace(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",
+                                 [CallerMemberName] string callerMemberName = "", [CallerLineNumber] int callerLine = 0)
+        {
+            ToFile("trace", assemblyName, avatarUserName, logMessage, callerFilePath, callerMemberName, callerLine);
+        }
 
-        /// <summary>Create a basic DEBUG log.</summary>
+        /// <summary>Create a basic debug log.</summary>
         public static void Debug(string assemblyName, string avatarUserName, string logMessage = "No log message.", [CallerFilePath] string callerFilePath = "",
                                  [CallerMemberName] string callerMemberName = "", [CallerLineNumber] int callerLine = 0)
         {
             ToFile("debug", assemblyName, avatarUserName, logMessage, callerFilePath, callerMemberName, callerLine);
         }
 
-        /// <summary> Create a OPTOBJ log.</summary>
+        /// <summary> Create an OptionObject2015 log.</summary>
         public static void OptObj(string assemblyName, string avatarUserName, OptionObject2015 optObj, string logMessage = "No log message.",
                                   [CallerFilePath] string callerFilePath = "", [CallerMemberName] string callerMemberName = "",
                                   [CallerLineNumber] int callerLine = 0)
