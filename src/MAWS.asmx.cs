@@ -9,14 +9,14 @@
 // -----------------------------------------[ CLASS ]-------------------------------------------
 // MAWS.asmx.cs
 // Entry point for MAWS.
-// b220706.075759
+// b220721.075759
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.asmx.cs.md
 // ---------------------------------------------------------------------------------------------
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[ ABOUT MAWS ]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // https://github.com/spectrum-health-systems/MAWS
 // Version 1.99.0.0
-// Build: 220706.075938+devbuild
+// Build: 220721.000000+devbuild
 //
 // The MyAvatool Web Service (MAWS) is a custom web service which includes various tools and
 // utilities for myAvatar™ that aren't included in the official release, and provides a solid
