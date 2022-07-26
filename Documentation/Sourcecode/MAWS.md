@@ -85,6 +85,10 @@ Executes a MAWS Request.
     Use MAWS, but don't make changes, only write logs. This is like the "disabled" setting, since no modifications to the OptionObject are make, and also like the "enabled" setting, since MAWS will actually go through the motions and write logs normally.
 * **\[6]** The returned OptionObject2015 may - or may not - be modified, depending on the MawsMode and/or the MAWS Request.
 
+
+
+
+
 </details>
 
 <br>

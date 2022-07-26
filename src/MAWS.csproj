@@ -73,11 +73,21 @@
   <ItemGroup>
     <Compile Include="MAWS.asmx.cs">
       <DependentUpon>MAWS.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -86,6 +96,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="MAWS.Common\MAWS.Common.csproj">
+      <Project>{a7b485c9-7646-4f63-b161-48bc8dfe4e4f}</Project>
+      <Name>MAWS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="MAWS.Logging\MAWS.Logging.csproj">
+      <Project>{072be736-9a45-473f-85fa-61c724b90532}</Project>
+      <Name>MAWS.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="MAWS.Session\MAWS.Session.csproj">
+      <Project>{31ea8ede-af47-41b8-bd96-12676cbb1428}</Project>
+      <Name>MAWS.Session</Name>
+    </ProjectReference>
     <ProjectReference Include="NTST.ScriptLinkService.Objects\NTST.ScriptLinkService.Objects.vbproj">
       <Project>{8a8a6089-3286-42e6-9f76-b61784709654}</Project>
       <Name>NTST.ScriptLinkService.Objects</Name>

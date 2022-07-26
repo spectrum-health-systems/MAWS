@@ -35,43 +35,48 @@
 // https://github.com/myAvatar-Development-Community
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-using System;
+using MAWS.Logging;
+using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Collections.Specialized;
+using System.Configuration;
 using System.Web.Services;
 
 namespace MAWS
 {
-    /// <summary>
-    /// Summary description for MAWS
-    /// </summary>
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-
-    /// <summary>
-    /// Returns the version of MAWS.
-    /// </summary>
-    /// <returns>MAWS version.</returns>
-    [WebMethod]
-    public string GetVersion()
+    public class MawsMain : WebService
     {
-        return "VERSION 2.0";
-    }
+        /// <summary>
+        /// Returns the version of MAWS.
+        /// </summary>
+        /// <returns>MAWS version.</returns>
+        [WebMethod]
+        public string GetVersion()
+        {
+            return "VERSION 2.0";
+        }
 
-    /// <summary>Executes a MAWS Request.</summary>
+        /// <summary>
+        /// Execute a MAWS Request.
+        /// </summary>
         /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
         /// <returns>Updated OptionObject2015.</returns>
         [WebMethod]
         public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
         {
-            Dictionary<string, string> mawsSession = MawsSession.BuildSessionSettings(sentOptObj, sentMawsRequest);
+            NameValueCollection mawsExternalSettings = (NameValueCollection)ConfigurationManager.GetSection("mawsSettings");
+            Dictionary<string, string> mawsSettings  = MAWS.Session.NewSession.Initialize.GetSettings(sentOptObj,sentMawsRequest, mawsExternalSettings);
 
-            //var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
-            //var avatarUserName = sentOptObj.OptionUserId;
-            LogEvent.Trace(assemblyName, avatarUserName);
+            /*x 
+             * Dictionary<string, string> mawsSettings = MawsInitializer(sentOptObj, sentMawsRequest)
+             * var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
+             * var avatarUserName = sentOptObj.OptionUserId;
+             * LogEvent.Trace(assemblyName, avatarUserName);
+             */
 
             var workOptObj = new OptionObject2015();
             LogEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
@@ -105,5 +110,27 @@ namespace MAWS
 
             return returnOptObj;
         }
+
+        /// <summary>
+        /// Initializes a new MAWS session.
+        /// </summary>
+        /// <param name="sentOptObj"></param>
+        /// <param name="sentMawsRequest"></param>
+        /// <returns></returns>
+        public static Dictionary<string, string> MawsStart(OptionObject2015 sentOptObj, string sentMawsRequest)
+        {
+            //    var assemblyName         = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
+            //    //var avatarUserName       = sentOptObj.OptionUserId; // Don't need, done elsewhere.
+
+
+            //    var mawsExternalSettings = ConfigurationManager.GetSection("mawsSettings");
+
+            //    Dictionary<string, string> mawsSettings = MAWS.Session.Settings.Build.All(sentOptObj, sentMawsRequest, mawsExternalSettings);
+
+            //    LogEvent.Trace(assemblyName, avatarUserName);
+
+            //    return mawsSettings;
+            //}
+
+        }
     }
-}
