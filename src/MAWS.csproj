@@ -67,41 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MawsMain.asmx" />
+    <Content Include="MAWS.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppSettings\Runtime.cs" />
-    <Compile Include="AppSettings\MawsSession.cs" />
-    <Compile Include="AppSettings\SettingsFile.cs" />
-    <Compile Include="Data\Validate.cs" />
-    <Compile Include="Logging\DataDump.cs" />
-    <Compile Include="OptionObject\Finalize.cs" />
-    <Compile Include="Roundhouse\MawsModeRoundhouse.cs" />
-    <Compile Include="SynaxEngine\MawsRequest.cs" />
-    <Compile Include="Utilities\ApplicationInformation.cs" />
-    <Compile Include="Utilities\AvatarUserName.cs" />
-    <Compile Include="Utilities\Build.cs" />
-    <Compile Include="Logging\LogEvent.cs" />
-    <Compile Include="Maintenance\FileSystem.cs" />
-    <Compile Include="MawsMain.asmx.cs">
-      <DependentUpon>MawsMain.asmx</DependentUpon>
-      <SubType>Component</SubType>
+    <Compile Include="MAWS.asmx.cs">
+      <DependentUpon>MAWS.asmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AppData\version.json" />
     <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,9 +90,6 @@
       <Project>{8a8a6089-3286-42e6-9f76-b61784709654}</Project>
       <Name>NTST.ScriptLinkService.Objects</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Session\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
