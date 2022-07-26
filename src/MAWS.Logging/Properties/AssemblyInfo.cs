@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Logging")]
+[assembly: AssemblyTitle("MAWS.Logging")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Spectrum Health Systems, Inc")]
-[assembly: AssemblyProduct("Logging")]
+[assembly: AssemblyProduct("MAWS.Logging")]
 [assembly: AssemblyCopyright("Copyright © Spectrum Health Systems, Inc 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("860a50c7-5dd2-46a9-8c65-5dcc6719d447")]
+[assembly: Guid("072be736-9a45-473f-85fa-61c724b90532")]
 
 // Version information for an assembly consists of the following four values:
 //

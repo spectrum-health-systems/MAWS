@@ -55,6 +55,7 @@ namespace MAWS
         {
             return "VERSION 2.0";
         }
+
         /// <summary>Executes a MAWS Request.</summary>
         /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
