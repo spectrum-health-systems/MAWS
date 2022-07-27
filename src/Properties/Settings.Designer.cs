@@ -22,5 +22,41 @@ namespace MAWS.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("disabled")]
+        public string MawsMode {
+            get {
+                return ((string)(this["MawsMode"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\MyAvatool\\MAWS\\Testing")]
+        public string MawsRootDirectory {
+            get {
+                return ((string)(this["MawsRootDirectory"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("all")]
+        public string LoggingMode {
+            get {
+                return ((string)(this["LoggingMode"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("MAWS")]
+        public string FallbackAvatarUserName {
+            get {
+                return ((string)(this["FallbackAvatarUserName"]));
+            }
+        }
     }
 }

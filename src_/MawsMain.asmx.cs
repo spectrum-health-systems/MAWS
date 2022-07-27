@@ -48,13 +48,13 @@ namespace MAWS
     [System.ComponentModel.ToolboxItem(false)]
     public class MawsMain : WebService
     {
-        /// <summary>Returns the version of MAWS.</summary>
-        /// <returns>MAWS version.</returns>
-        [WebMethod]
-        public string GetVersion()
-        {
-            return "VERSION 2.0";
-        }
+        // /// <summary>Returns the version of MAWS.</summary>
+        // /// <returns>MAWS version.</returns>
+        // [WebMethod]
+        // public string GetVersion()
+        // {
+        //     return "VERSION 2.0";
+        // }
 
         /// <summary>Executes a MAWS Request.</summary>
         /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param

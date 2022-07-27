@@ -9,14 +9,14 @@
 // -----------------------------------------[ CLASS ]-------------------------------------------
 // MAWS.asmx.cs
 // Entry point for MAWS.
-// b220726.000000
+// b220727.091950
 // https://github.com/https://github.com/spectrum-health-systems/MAWS/tree/main/Documentation/Sourcecode/MAWS.asmx.cs.md
 // ---------------------------------------------------------------------------------------------
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[ ABOUT MAWS ]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // https://github.com/spectrum-health-systems/MAWS
 // Version 1.99.0.0
-// Build: 220726.000000+devbuild
+// Build: 220727.092002 [devbuild]
 //
 // The MyAvatool Web Service (MAWS) is a custom web service which includes various tools and
 // utilities for myAvatar™ that aren't included in the official release, and provides a solid
@@ -35,11 +35,10 @@
 // https://github.com/myAvatar-Development-Community
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-using MAWS.Logging;
+using MAWS.Common.Settings;
+using MAWS.Logging.LogType;
 using NTST.ScriptLinkService.Objects;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Configuration;
 using System.Web.Services;
 
 namespace MAWS
@@ -47,7 +46,7 @@ namespace MAWS
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-    public class MawsMain : WebService
+    public class MAWS : WebService
     {
         /// <summary>
         /// Returns the version of MAWS.
@@ -62,75 +61,32 @@ namespace MAWS
         /// <summary>
         /// Execute a MAWS Request.
         /// </summary>
-        /// <param name="sentOptObj">The OptionObject2015 sent from myAvatar.</param
+        /// <param name="sentOptionObject">The OptionObject2015 sent from myAvatar.</param
         /// <param name="mawsRequest">The MAWS request to be executed.</param>
         /// <returns>Updated OptionObject2015.</returns>
         [WebMethod]
-        public OptionObject2015 RunScript(OptionObject2015 sentOptObj, string sentMawsRequest)
+        public OptionObject2015 RunScript(OptionObject2015 sentOptionObject, string sentMawsRequest)
         {
-            NameValueCollection mawsExternalSettings = (NameValueCollection)ConfigurationManager.GetSection("mawsSettings");
-            Dictionary<string, string> mawsSettings  = MAWS.Session.NewSession.Initialize.GetSettings(sentOptObj,sentMawsRequest, mawsExternalSettings);
+            Dictionary<string, string> applicationSettings = GetApplicationSettings();
+            MawsSettings mawsSettings = MawsSettings.Initialize(sentOptionObject, sentMawsRequest, applicationSettings);
+            Trace.LogEvent(mawsSettings.AvatarUserName, mawsSettings.SessionStamp);
 
-            /*x 
-             * Dictionary<string, string> mawsSettings = MawsInitializer(sentOptObj, sentMawsRequest)
-             * var assemblyName = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
-             * var avatarUserName = sentOptObj.OptionUserId;
-             * LogEvent.Trace(assemblyName, avatarUserName);
-             */
-
-            var workOptObj = new OptionObject2015();
-            LogEvent.OptObj(assemblyName, avatarUserName, workOptObj, "Initial workOptObj:");
-
-            var mawsMode = Properties.Settings.Default.MawsMode.ToLower();
-
-            switch (mawsMode)
-            {
-                case "enabled":
-                    LogEvent.Trace(assemblyName, avatarUserName);
-                    // Point to Roundhouse.cs
-                    break;
-
-                case "disabled":
-                    LogEvent.Trace(assemblyName, avatarUserName);
-                    // Don't do anything, just return the data from sentOptObj.
-                    break;
-
-                case "passthrough":
-                    LogEvent.Trace(assemblyName, avatarUserName);
-                    // Just log things, don't make any changes to the data.
-                    break;
-
-                default:
-                    break;
-            }
-
-            LogEvent.Trace(assemblyName, avatarUserName);
-
-            OptionObject2015 returnOptObj = MAWS.OptionObject.Finalize.FinalizeIt(sentOptObj, workOptObj);
-
-            return returnOptObj;
+            return new OptionObject2015(); //! Temporary
         }
 
         /// <summary>
-        /// Initializes a new MAWS session.
+        /// 
         /// </summary>
-        /// <param name="sentOptObj"></param>
-        /// <param name="sentMawsRequest"></param>
         /// <returns></returns>
-        public static Dictionary<string, string> MawsStart(OptionObject2015 sentOptObj, string sentMawsRequest)
+        private static Dictionary<string, string> GetApplicationSettings()
         {
-            //    var assemblyName         = Assembly.GetExecutingAssembly().GetName().Name.ToLower();
-            //    //var avatarUserName       = sentOptObj.OptionUserId; // Don't need, done elsewhere.
-
-
-            //    var mawsExternalSettings = ConfigurationManager.GetSection("mawsSettings");
-
-            //    Dictionary<string, string> mawsSettings = MAWS.Session.Settings.Build.All(sentOptObj, sentMawsRequest, mawsExternalSettings);
-
-            //    LogEvent.Trace(assemblyName, avatarUserName);
-
-            //    return mawsSettings;
-            //}
-
+            return new Dictionary<string, string>()
+            {
+                { "MawsMode", Properties.Settings.Default.MawsMode },
+                { "LogMode",  Properties.Settings.Default.LoggingMode},
+                { "MawsRootDir", Properties.Settings.Default.MawsRootDirectory },
+                { "FallbackAvatarUserName", Properties.Settings.Default.FallbackAvatarUserName }
+            };
         }
     }
+}

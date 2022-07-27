@@ -59,7 +59,7 @@ Uh, not much to say here. This method is pretty simple.
 
 ### `RunScript()`
 
-Executes a MAWS Request.
+Execute a MAWS Request.
 
 #### Operation
 
@@ -75,6 +75,7 @@ Executes a MAWS Request.
 * This method is required by myAvatar.
 * There is a commented line is at the start of the method that enables troubleshooting logs. This line should remain commented in production.
 * You can find more information about the `RunScript()` method [here](https://github.com/myAvatar-Development-Community/document-creating-a-custom-web-service#the-runscript-method).
+* **\[1]** We need to get the configuration settings in the external `Web.config` file at the beginning, then build the rest of the setting values that will stay in `mawsSettings`.
 * **\[2]** You can read more about why we create these values in this way [here][4].
 * **\[4]** The MawsMode can be one of the following:
     - `enabled`  
@@ -84,10 +85,6 @@ Executes a MAWS Request.
     - `passthrough`  
     Use MAWS, but don't make changes, only write logs. This is like the "disabled" setting, since no modifications to the OptionObject are make, and also like the "enabled" setting, since MAWS will actually go through the motions and write logs normally.
 * **\[6]** The returned OptionObject2015 may - or may not - be modified, depending on the MawsMode and/or the MAWS Request.
-
-
-
-
 
 </details>
 

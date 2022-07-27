@@ -41,10 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Event\LogEvent.cs" />
+    <Compile Include="LogFile\Details.cs" />
+    <Compile Include="LogFile\Export.cs" />
+    <Compile Include="LogType\Trace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MAWS.Common\MAWS.Common.csproj">
+      <Project>{a7b485c9-7646-4f63-b161-48bc8dfe4e4f}</Project>
+      <Name>MAWS.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NTST.ScriptLinkService.Objects\NTST.ScriptLinkService.Objects.vbproj">
       <Project>{8a8a6089-3286-42e6-9f76-b61784709654}</Project>
       <Name>NTST.ScriptLinkService.Objects</Name>

@@ -97,14 +97,14 @@ Default settings are in the .config file.
 
 Some settings are created at runtime.
 
-# Namespaces
+# Projects
 
-Here is where you will find information about all of the MAWS namespaces, and their sourcecode.
+MAWS is comprised of multiple projects:
 
-[MAWS][4]  
+[MAWS][4]
 [MAWS.Configuration][5]
 [MAWS.Logging][6]
-
+[MAWS.Session][7]
 
 # Methods
 
@@ -127,11 +127,12 @@ Also, there is quite a bit of myAvatar-related information/documentation at the 
 [2]: ../Sourcecode/MAWS-Sourcecode.md
 [3]: ../Manual/MAWS-Manual.md
 [4]: ../Sourcecode/MAWS.md
-[5]: ../Sourcecode/MAWS.Configuration.md
+[5]: ../Sourcecode/MAWS.Common.md
 [6]: ../Sourcecode/MAWS.Logging.md
+[7]: ../Sourcecode/MAWS.Session.md
 
 <div align="center">
   <sub>
-    Last updated July 14th, 2022
+    Last updated July 26th, 2022
   </sub>
 <br>
