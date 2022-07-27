@@ -15,7 +15,7 @@
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[ ABOUT MAWS ]-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // https://github.com/spectrum-health-systems/MAWS
-// Version 1.99.0.0
+// Version 1.99.0.x
 // Build: 220727.092002 [devbuild]
 //
 // The MyAvatool Web Service (MAWS) is a custom web service which includes various tools and
